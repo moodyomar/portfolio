@@ -1,0 +1,45 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+:root{
+--primary-font-family: "Roboto";
+--primary-font-weight: 600;
+--secondary-font-family: "Roboto Slab";
+--secondary-font-weight: 400;
+--text-font-family: "Roboto";
+--text-font-weight: 400;
+--accent-font-family: "Roboto";
+--accent-font-weight: 500;
+}
+
+[data-theme="dark"]{
+--color-icons-bg: #2d2e32;
+--color-bg: #2D2F32;
+--color-text-secondary: #fecd1a;
+--color-text: #ffaf29;
+--color-bright-green: #64f4ab;
+--color-dark-green: #327a56;
+--color-text-secondary: #e8e8e8;
+--color-tiles-bg: #25262a;
+--color-text-primary: #fff;
+}
+
+[data-theme="light"]{
+--color-icons-bg: #d0d0d0;
+--color-bg: #FFFFFF;
+--color-text-secondary: #fecd1a;
+--color-text: #ffaf29;
+--color-bright-green: #64f4ab;
+--color-dark-green: #327a56;
+--color-text-secondary: #25262a;
+--color-tiles-bg: #e8e8e8;
+--color-text-primary: #000;
+}
+
+body{
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+}
