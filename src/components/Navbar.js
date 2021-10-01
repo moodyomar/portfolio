@@ -29,7 +29,7 @@ const switchIt = () => {
 return(
 
 <div className='Navbar'>
-<div className="logo">
+<div className="logo"  data-aos="fade-right" data-aos-duration="600">
   <h2><img src="/assets/logo.svg" alt="" /></h2>
 </div>
 <nav>
@@ -47,7 +47,9 @@ return(
         <div class="slider round"></div>
   </label>
 </div></div>
-  <div className="btn ">Contact Me</div>
+  <div className="btn"
+  data-aos="fade-left" data-aos-duration="2000"
+  >Contact Me</div>
 </div>
 </div>
 

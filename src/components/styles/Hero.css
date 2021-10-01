@@ -17,6 +17,7 @@ color: var(--color-bright-green);
 margin-bottom: 15px;
 }
 .para {
+  font-size: 1vw;
 letter-spacing: 1px;
 margin: 20px 0px 30px;
 }
@@ -28,6 +29,7 @@ margin-bottom: 20px;
 }
 h1 span {
   font-size: 6.5vw;
+  display: flex;
 }
 .right-col{
   display: flex;
@@ -41,16 +43,17 @@ flex:2;
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   right: 10vw;
 }
+
 .ring{
   width: 700px;
   height: 700px;
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   right: 5vw;
 }
 .icon{
@@ -64,20 +67,76 @@ flex:2;
  border-radius: 50%;
   background-color: var(--color-icons-bg);
   color: var(--color-bright-green);
+  transition: .25s all linear;
+  cursor: wait;
 }
-.icon2{
+.icon:hover{
+animation: alternate infinite .5s float;
+
+}
+.tLeft{
 right: 630px;
 top: 220px;
 }
-.icon1{
+.bLeft{
   right: 720px;
   top: 440px;
 }
-.icon3{
+.tRight{
 right: 130px;
 top: 220px;
 }
-.icon4{
+.bRight{
   right: 30px;
   top: 440px;
+}
+
+@keyframes float {
+  100%{transform: translateY(-10px);}
+}
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 860px) {
+
+}
+@media screen and (max-width: 1250px) {
+  .left-col p:first-child{
+    padding-top: 200px;
+  color: var(--color-bright-green);
+  margin-bottom: 15px;
+  }
+  .para{
+    width: 250px;
+  }
+.ring{
+  width: 500px;
+  height: 500px;
+}
+.person{
+  height: 550px;
+  width: 390px;
+}
+.icon{
+  width: 70px;
+  height: 70px;
+  font-size: 1.5rem;
+}
+.bLeft{
+  right: 510px;
+  top: 520px;
+}
+.tLeft{
+  right: 410px;
+  top: 350px;
+  }
+  .tRight{
+  top: 350px;
+  right: 115px;
+  }
+.bRight{
+  top: 520px;
+  right: 15px;
+}
 }
