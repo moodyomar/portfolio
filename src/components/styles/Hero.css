@@ -1,0 +1,83 @@
+.Hero{
+  display: flex;
+  width: 100vw;
+  background-color: var(--color-tiles-bg);
+}
+.left-col{
+  display: flex;
+  flex-direction: column;
+  min-width: 35vw;
+  padding: 30px;
+flex:1;
+  height: calc(100vh - 110px);
+}
+.left-col p:first-child{
+  padding-top: 100px;
+color: var(--color-bright-green);
+margin-bottom: 15px;
+}
+.para {
+letter-spacing: 1px;
+margin: 20px 0px 30px;
+}
+
+h1{
+  font-size: 5.5vw;
+line-height: 1;
+margin-bottom: 20px;
+}
+h1 span {
+  font-size: 6.5vw;
+}
+.right-col{
+  display: flex;
+  flex-direction: column;
+flex:2;
+  height: calc(100vh - 110px);
+}
+.person{
+  height: 700px;
+  width: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 10vw;
+}
+.ring{
+  width: 700px;
+  height: 700px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 5vw;
+}
+.icon{
+  position: absolute;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 95px;
+  height: 95px;
+ border-radius: 50%;
+  background-color: var(--color-icons-bg);
+  color: var(--color-bright-green);
+}
+.icon2{
+right: 630px;
+top: 220px;
+}
+.icon1{
+  right: 720px;
+  top: 440px;
+}
+.icon3{
+right: 130px;
+top: 220px;
+}
+.icon4{
+  right: 30px;
+  top: 440px;
+}
