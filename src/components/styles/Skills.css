@@ -1,10 +1,22 @@
 .Skills{
-width: 100vw;
-height: 100vh;
-margin-top: 150px;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 }
+p:first-child{
+  padding-top: 100px;
+color: var(--color-bright-green);
+margin-bottom: 15px;
+}
+.para {
+letter-spacing: 1px;
+margin: 20px 0px 30px;
+color:var(--color-text-secondary);
+}
 
+h1{
+  font-size: 5.5vw;
+line-height: 1;
+margin-bottom: 20px;
+}
