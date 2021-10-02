@@ -8,8 +8,7 @@ import './App.css';
 
 function App() {
     AOS.init({
-    offset: 200, 
-    // duration: 1250, 
+    offset: 200,
   });
   return (
     <Router>

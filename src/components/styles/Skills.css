@@ -1,4 +1,10 @@
 .Skills{
 width: 100vw;
 height: 100vh;
+margin-top: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
+

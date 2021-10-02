@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { AiFillHome, AiOutlineMenu,AiFillPhone,AiFillLayout  } from 'react-icons/ai';
 
 import './styles/Navbar.css';
 
@@ -12,17 +13,16 @@ const switchIt = () => {
   function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light'); //add this
+        localStorage.setItem('theme', 'light'); 
     }
     else {
         document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark'); //add this
+        localStorage.setItem('theme', 'dark'); 
     }    
 }
 
   
   toggleSwitch.addEventListener('change', switchTheme, false);
-  
   
 }
 
@@ -30,14 +30,14 @@ return(
 
 <div className='Navbar'>
 <div className="logo"  data-aos="fade-right" data-aos-duration="600">
-  <h2><img src="/assets/logo.svg" alt="" /></h2>
+  <h2><img alt="" /></h2>
 </div>
 <nav>
 <ul>
-  <li className="underline"><Link to="/">
-    Home</Link></li>
-  <li className="underline"><Link to="/portfolio">Portfolio</Link></li>
-  <li className="underline"><Link to="/contact">Contact</Link></li>
+  <li className="underline home"><Link to="/">
+    <AiFillHome/> Home</Link></li>
+  <li className="underline"><Link to="/portfolio"><AiFillLayout/> Portfolio</Link></li>
+  <li className="underline contact"><Link to="/contact"><AiFillPhone/> Contact</Link></li>
 </ul>
 </nav>
 <div className="navSetting">
@@ -47,8 +47,9 @@ return(
         <div class="slider round"></div>
   </label>
 </div></div>
-  <div className="btn"
-  data-aos="fade-left" data-aos-duration="2000"
+  <AiOutlineMenu size={25} className="burgerMenu" />
+  <div className="btn hide-m"
+  data-aos="fade-left" data-aos-duration="2000" 
   >Contact Me</div>
 </div>
 </div>

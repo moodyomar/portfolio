@@ -2,6 +2,15 @@
   display: flex;
   width: 100vw;
   background-color: var(--color-tiles-bg);
+  height: calc(100vh - 100px);
+}
+.right-col{
+  display: flex;
+  flex-direction: column;
+flex:2;
+position: relative;
+bottom: 0px;
+top: 10px;
 }
 .left-col{
   display: flex;
@@ -9,7 +18,6 @@
   min-width: 35vw;
   padding: 30px;
 flex:1;
-  height: calc(100vh - 110px);
 }
 .left-col p:first-child{
   padding-top: 100px;
@@ -31,13 +39,8 @@ h1 span {
   font-size: 6.5vw;
   display: flex;
 }
-.right-col{
-  display: flex;
-  flex-direction: column;
-flex:2;
-  height: calc(100vh - 110px);
-}
 .person{
+  background-image: url('../../assets/personme.png');
   height: 700px;
   width: 500px;
   background-size: contain;
@@ -45,9 +48,11 @@ flex:2;
   position: absolute;
   bottom: 10px;
   right: 10vw;
+  z-index: 10;
 }
 
 .ring{
+  background-image: var(--ring);
   width: 700px;
   height: 700px;
   background-size: contain;
@@ -57,6 +62,7 @@ flex:2;
   right: 5vw;
 }
 .icon{
+  z-index: 5;
   position: absolute;
   display: grid;
   place-items: center;
@@ -69,41 +75,40 @@ flex:2;
   color: var(--color-bright-green);
   transition: .25s all linear;
   cursor: wait;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
 }
 .icon:hover{
 animation: alternate infinite .5s float;
 
 }
-.tLeft{
-right: 630px;
-top: 220px;
-}
-.bLeft{
-  right: 720px;
-  top: 440px;
-}
-.tRight{
-right: 130px;
-top: 220px;
-}
+
 .bRight{
-  right: 30px;
-  top: 440px;
-}
+  right: 45px;
+  top: 450px;
+  }
+  .bLeft{
+top: 450px;
+right: 45vw;
+  }
+  .tRight{
+    right: 120px;
+    top: 100px;
+  }
+  .tLeft{
+right: 40vw;
+top: 100px;
+  }
 
 @keyframes float {
   100%{transform: translateY(-10px);}
 }
 
 
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 860px) {
-
-}
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1350px) {
+  .Hero{
+    height: auto;
+  }
   .left-col p:first-child{
-    padding-top: 200px;
   color: var(--color-bright-green);
   margin-bottom: 15px;
   }
@@ -123,20 +128,85 @@ top: 220px;
   height: 70px;
   font-size: 1.5rem;
 }
+.tLeft,.tRight{
+  top: 150px;
+  }
+  .bLeft,.bRight{
+  top: 350px;
+  }
+}
+
+@media screen and (max-width: 965px) {
+
+.ring{
+  width: 400px;
+  height: 400px;
+}
+.person{
+  width: 300px;
+  height:  400px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+.burgerMenu{
+display: block;
+}
+.Hero{
+display: block;
+}
+.left-col{
+display: grid;
+place-items: center;
+}
+.right-col{
+height: 50vh;
+display: grid;
+place-items: center;
+}
+.ring{
+  position: unset;
+  width: 350px;
+  height: 350px;
+}
+.person{
+  width: 300px;
+  height:  400px;
+  margin-right: 10%;
+}
+.para {
+font-size: 0.8rem;
+}
+.left-col p:first-child{
+  padding-top: 0px;
+}
+h1{
+font-size: 2.2rem;
+}
+h1 span {
+font-size: 3.2rem;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+  font-size: 1.4rem;
+}
+.bRight{
+right: 110px;
+top: 10px;
+}
 .bLeft{
-  right: 510px;
-  top: 520px;
+  right: 45px;
+  top: 100px;
+}
+.tRight{
+top: 220px;
+right: 30px;
 }
 .tLeft{
-  right: 410px;
-  top: 350px;
-  }
-  .tRight{
-  top: 350px;
-  right: 115px;
-  }
-.bRight{
-  top: 520px;
-  right: 15px;
+top: 325px;
+right: 60px;
 }
+
 }

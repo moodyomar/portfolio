@@ -11,33 +11,18 @@ padding-left: 40px;
 flex:1;
 }
 
+.logo img{
+  content: var(--logo);
+}
+
 nav {
   margin-left: 50px;
 list-style-type: none;
 flex-grow: 2;
-
 }
 nav ul{
   list-style-type: none;
   display: flex;
-}
-
-.underline::after{
-  content:"";
-  width: 0%;
-  height: 3px;
-  background-color: #fff;
-  display: block;
-  transition: .25s all linear;
-  }
-.underline:hover::after{
-content:"";
-width: 70px;
-height: 3px;
-background-color: #fff;
-display: block;
-transition: .25s all linear;
-cursor: pointer;
 }
 nav ul li a{
   text-decoration: none;
@@ -49,7 +34,30 @@ nav ul li a:hover{
   color:var(--color-text-primary);
   transition: .25s all linear;
   font-weight: 800;
+}
 
+.underline::after{
+  content:"";
+  width: 0%;
+  height: 3px;
+  background-color: var(--color-text-primary);
+  display: block;
+  transition: .25s all linear;
+  }
+.underline:hover::after{
+content:"";
+width: 95px;
+height: 3px;
+background-color: var(--color-text-primary);
+display: block;
+transition: .25s all linear;
+cursor: pointer;
+}
+.underline.home:hover::after{
+width: 70px;
+}
+.underline.contact:hover::after{
+width: 88px;
 }
 
 
@@ -79,12 +87,17 @@ margin-right: 25px;
   position: relative;
   width: 50px;
 }
-
 .theme-switch input {
   display:none;
 }
+.slider:hover {
+  transition: ease-in .25s;
+  transform: scale(1.1);
+  background-image: linear-gradient(91deg,var(--color-text-orange1) 0%,var(--color-text-orange2) 100%);
 
+}
 .slider {
+  transition: ease-out .2s;
   background-color: var(--color-text-secondary);
   bottom: 0;
   cursor: pointer;
@@ -94,7 +107,6 @@ margin-right: 25px;
   top: 0;
   transition: .4s;
 }
-
 .slider:before {
   background-color: var(--color-tiles-bg);
   bottom: 4px;
@@ -105,22 +117,25 @@ margin-right: 25px;
   transition: .4s;
   width: 16px;
 }
-
 input:checked + .slider:before {
   transform: translateX(26px);
 }
-
 .slider.round {
   border-radius: 34px;
 }
-
 .slider.round:before {
   border-radius: 50%;
 }
-
+.burgerMenu{
+  display: none;
+  }
 
 @media screen and (max-width: 950px) {
  nav{
    display: none;
  }
+ .burgerMenu{
+  display: block;
+  margin-right: 10px;
+  }
 }

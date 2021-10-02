@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="148" height="48" viewBox="0 0 148 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#64f4ab"/>
+      <stop offset="1" stop-color="#327a56"/>
+    </linearGradient>
+  </defs>
+  <g id="logo_-_header" data-name="logo - header" transform="translate(-158 -36)">
+    <text id="Jessy" transform="translate(208 76)" style="font-family: Raleway-SemiBold, Raleway; font-size: 33px; font-weight: 600; white-space: pre;" x="0" y="0">MODY</text>
+    <path id="Path_85" data-name="Path 85" d="M751.579,444.411h13.506v16.174q0,.5-.032,1-.037.613-.121,1.211-.082.614-.213,1.21a16.166,16.166,0,1,1-19.231-19.229v-3.033c0-.24,0-.478.011-.711a19.845,19.845,0,1,0,23.229,20.529c.008-.159.014-.317.018-.475,0-.086,0-.171,0-.258s0-.163,0-.245h0V440.742H751.61q-.031.5-.032,1Z" transform="translate(638.426 -693.071) rotate(90)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

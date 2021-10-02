@@ -14,9 +14,8 @@ const Hero = () => {
         <div className="btn" data-aos="fade-up" data-aos-duration="2000">Contact Me</div>
       </div>
       <div className="right-col">
-        <div className="ring"
-          style={{ backgroundImage: 'url(assets/ring.svg)' }}></div>
-        <div className="person" style={{ backgroundImage: 'url(assets/personme.png)' }} data-aos="fade-up" data-aos-duration="1800"></div>
+        <div className="ring"></div>
+        <div className="person" data-aos="fade-up" data-aos-duration="1800"></div>
         <div className="icon bLeft"
         data-aos="zoom-in" data-aos-duration="2500"
         >Ai</div>

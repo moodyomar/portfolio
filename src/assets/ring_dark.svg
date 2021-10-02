@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="gradient-1" bx:pinned="true"/>
+    <linearGradient id="gradient-2" bx:pinned="true">
+      <stop style="stop-color: rgb(216, 216, 216);" offset="0"/>
+      <stop style="stop-color: rgb(165, 165, 165);" offset="1"/>
+    </linearGradient>
+    <linearGradient id="gradient-3" bx:pinned="true">
+      <stop style="stop-color: rgb(100, 244, 171);" offset="0"/>
+      <stop style="stop-color: rgb(50, 122, 86);" offset="1"/>
+    </linearGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="585.06" cy="386.182" r="247.015" id="gradient-3-1" gradientTransform="matrix(0.824652, -0.56564, 1.13372, 1.652863, -335.233547, 78.809196)" xlink:href="#gradient-3"/>
+  </defs>
+  <path d="M 585.06 386.139 m -247.015 0 a 247.015 247.007 0 1 0 494.03 0 a 247.015 247.007 0 1 0 -494.03 0 Z M 585.06 386.139 m -171.006 0 a 171.006 171.006 0 0 1 342.012 0 a 171.006 171.006 0 0 1 -342.012 0 Z" style="fill: url(#gradient-3-1);" transform="matrix(-0.823125, 0.56786, -0.56786, -0.823125, 951.101469, 236.227265)" bx:shape="ring 585.06 386.139 171.006 171.006 247.015 247.007 1@ed031fe4"/>
+</svg>
