@@ -1,24 +1,24 @@
 [
   {
-    "icon":"PD",
+    "icon":"SiVisualstudiocode",
     "title":"Product Design",
     "desc":"The technological revolution is changing aspect",
     "animation":"left"
   },
   {
-    "icon":"LD",
+    "icon":"SiCodesandbox",
     "title":"Logo Design",
     "desc":"The technological revolution is changing aspect",
     "animation":"right"
   },
   {
-    "icon":"UD",
+    "icon":"SiCodeship",
     "title":"UI Design",
     "desc":"The technological revolution is changing aspect",
     "animation":"left"
   },
   {
-    "icon":"ID",
+    "icon":"SiLeetcode",
     "title":"Icon Design",
     "desc":"The technological revolution is changing aspect",
     "animation":"right"

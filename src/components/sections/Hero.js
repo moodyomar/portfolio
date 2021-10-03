@@ -1,4 +1,6 @@
 import React from 'react';
+import { SiJavascript,SiReact,SiCss3  } from 'react-icons/si';
+import { BiCodeAlt  } from 'react-icons/bi';
 
 import '../styles/Hero.css';
 
@@ -18,16 +20,16 @@ const Hero = () => {
         <div className="person" data-aos="fade-up" data-aos-duration="1800"></div>
         <div className="icon bLeft"
         data-aos="zoom-in" data-aos-duration="2100"
-        >Ai</div>
+        ><SiReact/></div>
         <div className="icon tLeft" 
      data-aos="zoom-in" data-aos-duration="2100"
-        >Id</div>
+        ><BiCodeAlt/></div>
         <div className="icon tRight"
        data-aos="zoom-in" data-aos-duration="2100"
-        >Ps</div>
+        ><SiJavascript/></div>
         <div className="icon bRight"
           data-aos="zoom-in" data-aos-duration="2100"
-        >Xd</div>
+        ><SiCss3/></div>
       </div>
     </div>
 

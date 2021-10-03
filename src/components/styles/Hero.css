@@ -23,6 +23,7 @@ margin-bottom: 15px;
 }
 .para {
   font-size: 1vw;
+  width: 500px;
 letter-spacing: 1px;
 margin: 20px 0px 30px;
 color:var(--color-text-secondary);

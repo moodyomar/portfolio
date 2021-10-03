@@ -19,6 +19,7 @@ display: grid;
 grid-template-columns: repeat(2,1fr);
 width: 55vw;
 order: 1;
+justify-items: center;
 }
 .SkillCard:nth-child(even){
 transform: translateY(30px) !important;
@@ -53,3 +54,4 @@ display: flex;
     transform: translateY(0px) !important;
   }
 }
+
