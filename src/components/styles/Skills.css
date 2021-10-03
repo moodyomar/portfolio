@@ -1,22 +1,55 @@
 .Skills{
 display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+width: 100vw;
+overflow-x: hidden;
 }
+
 p:first-child{
   padding-top: 100px;
 color: var(--color-bright-green);
 margin-bottom: 15px;
 }
-.para {
-letter-spacing: 1px;
-margin: 20px 0px 30px;
-color:var(--color-text-secondary);
+.Skills .para {
+font-size: 1.1vw;
+width: 100%;
 }
 
-h1{
-  font-size: 5.5vw;
-line-height: 1;
-margin-bottom: 20px;
+.Skills .left-col{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+width: 55vw;
+order: 1;
+}
+.SkillCard:nth-child(even){
+transform: translateY(30px) !important;
+}
+.Skills .right-col{
+  padding: 50px;
+order: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .Skills{
+    display: block;
+  }
+  .Skills .left-col{
+  width: 100vw;
+display: flex;
+  flex-direction: column;
+
+  }
+  .Skills .right-col{
+  height: 50vh;
+  flex-direction: column;
+  }
+  p:first-child{
+  padding: 0;
+  }
+  .Skills .para {
+  font-size: 3.5vw;
+  width: 100%;
+  }
+  .SkillCard:nth-child(even){
+    transform: translateY(0px) !important;
+  }
 }

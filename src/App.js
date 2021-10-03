@@ -2,6 +2,7 @@ import {BrowserRouter as Router,Route} from "react-router-dom";
 import Navbar from './components/Navbar'
 import Hero from './components/sections/Hero'
 import Skills from './components/sections/Skills'
+import Projects from './components/sections/Projects'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import './App.css';
@@ -19,6 +20,7 @@ function App() {
 
 <main>
 <Skills />
+<Projects />
 </main>
 
 <footer>

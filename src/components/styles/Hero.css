@@ -5,8 +5,6 @@
   height: calc(100vh - 100px);
 }
 .right-col{
-  display: flex;
-  flex-direction: column;
 flex:2;
 position: relative;
 bottom: 0px;
@@ -17,7 +15,6 @@ top: 10px;
   flex-direction: column;
   min-width: 35vw;
   padding: 30px;
-flex:1;
 }
 .left-col p:first-child{
   padding-top: 100px;
@@ -202,11 +199,11 @@ top: 10px;
   top: 100px;
 }
 .tRight{
-top: 220px;
+top: 200px;
 right: 30px;
 }
 .tLeft{
-top: 325px;
+top: 300px;
 right: 60px;
 }
 

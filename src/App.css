@@ -69,9 +69,23 @@ box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.20);
     transform: scale(1.05) !important;
   }
 
+  .right-col{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-col{
+    display: flex;
+    flex-direction: column;
+  }
+  h2{
+    font-size: 2.5vw;
+    }
 
 @media screen and (max-width: 650px) {
   .hide-m{
     display: none;
+  }
+  h2{
+    font-size: 5vw;
   }
 }

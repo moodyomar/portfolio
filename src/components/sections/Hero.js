@@ -17,16 +17,16 @@ const Hero = () => {
         <div className="ring"></div>
         <div className="person" data-aos="fade-up" data-aos-duration="1800"></div>
         <div className="icon bLeft"
-        data-aos="zoom-in" data-aos-duration="2500"
+        data-aos="zoom-in" data-aos-duration="2100"
         >Ai</div>
         <div className="icon tLeft" 
-     data-aos="zoom-in" data-aos-duration="2500"
+     data-aos="zoom-in" data-aos-duration="2100"
         >Id</div>
         <div className="icon tRight"
-       data-aos="zoom-in" data-aos-duration="2500"
+       data-aos="zoom-in" data-aos-duration="2100"
         >Ps</div>
         <div className="icon bRight"
-          data-aos="zoom-in" data-aos-duration="2500"
+          data-aos="zoom-in" data-aos-duration="2100"
         >Xd</div>
       </div>
     </div>
