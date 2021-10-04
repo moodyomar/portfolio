@@ -2,5 +2,13 @@
   display: flex;
   width: 100vw;
   height: 100vw;
-  overflow-x: hidden;
+  overflow: hidden;
+  }
+.Projects .right-col{
+
+padding: 0px 100px;
+  }
+.Projects .left-col{
+
+width: 50vw;
   }
