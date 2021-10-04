@@ -1,25 +1,25 @@
 [
   {
     "icon":"SiVisualstudiocode",
-    "title":"Product Design",
+    "title":"Chakra Flowing",
     "desc":"The technological revolution is changing aspect",
     "animation":"left"
   },
   {
     "icon":"SiCodesandbox",
-    "title":"Logo Design",
+    "title":"Super Sayain",
     "desc":"The technological revolution is changing aspect",
     "animation":"right"
   },
   {
     "icon":"SiCodeship",
-    "title":"UI Design",
+    "title":"Kurama Mode",
     "desc":"The technological revolution is changing aspect",
     "animation":"left"
   },
   {
     "icon":"SiLeetcode",
-    "title":"Icon Design",
+    "title":"Bayrone Mode",
     "desc":"The technological revolution is changing aspect",
     "animation":"right"
   }

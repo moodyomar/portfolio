@@ -1,14 +1,37 @@
 .Projects{
-  display: flex;
-  width: 100vw;
-  height: 100vw;
-  overflow: hidden;
+display: flex;
+width: 100vw;
+overflow: hidden;
+margin-bottom: 100px;
+  }
+  .Project{
+    display: flex;
+    margin-bottom: 100px;
   }
 .Projects .right-col{
-
 padding: 0px 100px;
   }
-.Projects .left-col{
 
+.Projects .left-col{
+padding-top: 50px;
+display: flex;
+align-items: center;
 width: 50vw;
+height: 600px;
   }
+
+  @media screen and (max-width: 600px) {
+    .Project{
+      display: block;
+      height: 50vh;
+    }
+    .Projects .left-col{
+    width: 100vw;
+    }
+    .Projects  .right-col{
+    flex-direction: column;
+    }
+
+  
+  }
+  

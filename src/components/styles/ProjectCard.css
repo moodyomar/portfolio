@@ -1,0 +1,47 @@
+.ProjectCard{
+width: 550px;
+height: 450px;
+border-radius: 25px;
+background-color: rgba(255, 255, 255, 0.45);
+transform: rotate(-10deg);
+transition: .25s all;
+}
+
+.ProjectCardInner{
+width: 550px;
+height: 450px;
+background-color: #fff;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 25px;
+position: absolute;
+transform: rotate(-10deg);
+transition: .8s all ease;
+}
+.ProjectCardInner:hover{
+cursor: pointer;
+animation: alternate infinite .8s float;
+}
+@keyframes float{
+  100%{transform: scale(1.03);}
+}
+.onReach {
+  transition: 1s all;
+  transform: rotate(0deg);
+}
+
+
+@media screen and (max-width: 600px) {
+  .ProjectCard{
+    width: 300px;
+    height: 250px;
+    border-radius: 25px;
+    }
+    
+    .ProjectCardInner{
+    width: 300px;
+    height: 250px;
+    border-radius: 25px;
+    }
+}

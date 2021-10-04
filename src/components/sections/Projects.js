@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReusablePara from '../common/ReusablePara';
+import ProjectCard from '../cards/ProjectCard';
 
 import '../styles/Projects.css';
+import '../styles/ProjectCard.css';
+
 
 
 const Projects = () => { 
 
+
 return(
 
 <div className='Projects'>
+
+
+<div className="Project">
 <div className="right-col">
 <ReusablePara 
 intro={'--Project 1'}
@@ -17,8 +24,12 @@ para={"The technological revolution is changing aspect of our lives, and the fab
 btn={'Read More'} />
 </div>
 <div className="left-col">
-
+ <ProjectCard id={'p1'} />
 </div>
+</div>
+
+
+
 </div>
 
 )

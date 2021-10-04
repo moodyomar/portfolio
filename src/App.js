@@ -3,6 +3,7 @@ import Navbar from './components/common/Navbar'
 import Hero from './components/sections/Hero'
 import Skills from './components/sections/Skills'
 import Projects from './components/sections/Projects'
+import Testimonials from './components/sections/Testimonials'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import './App.css';
@@ -21,6 +22,7 @@ function App() {
 <main>
 <Skills />
 <Projects />
+<Testimonials />
 </main>
 
 <footer>

@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import {customAos} from '../../utils/customAos';
 
 
-const ProjectCard = () => { 
 
+const ProjectCard = ({id}) => { 
+
+  useEffect(() => {
+    customAos('onReach',`#${id}`)
+})
+  
 return(
-
-<div className=''>
-<h1>ProjectCard</h1>
-</div>
-
+  <>
+<div className="ProjectCard"></div>
+<div className="ProjectCardInner" id={id}></div>
+</>
 )
 }
 
