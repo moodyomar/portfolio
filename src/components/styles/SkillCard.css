@@ -20,8 +20,8 @@ box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.20);
 background-image: linear-gradient(var(--color-bright-green),var(--color-dark-green));
 }
 .skillIcon{
-  border-radius: 50%;
-  width: 100px;
+border-radius: 50%;
+width: 100px;
 height: 100px;
 border: 1px solid var(--color-bright-green);
 background-color: var(--color-icons-bg);
@@ -41,6 +41,23 @@ letter-spacing: 2px;
 text-align: center;
 }
 
-@media screen and (max-width: 1150px) {
-
+@media only screen and (max-width: 1150px) and (min-width: 600.5px)  {
+  .SkillCard{
+    width: 210px;
+    height: 210px;
   }
+  .skillIcon{
+    width: 60px;
+    height: 60px;
+    }
+    .skillTitle{
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+    .skillDesc{
+    letter-spacing: 1.4px;
+    font-size: 0.7rem;
+    text-align: center;
+    }
+
+}

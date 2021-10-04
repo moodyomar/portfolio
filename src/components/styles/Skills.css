@@ -21,12 +21,40 @@ width: 55vw;
 order: 1;
 justify-items: center;
 }
-.SkillCard:nth-child(even){
-transform: translateY(30px) !important;
-}
+
 .Skills .right-col{
   padding: 50px;
 order: 2;
+}
+
+@media screen and (min-width: 1150px) {
+  .SkillCard:nth-child(even){
+    transform: translateY(30px) !important;
+    }
+}
+/* fix about 200px that is not responsive  */
+@media only screen and (max-width: 1150px) and (min-width: 600px)  {
+  .SkillCard:nth-child(even){
+    transform: translateY(30px) !important;
+    }
+
+}
+
+@media only screen and (max-width: 820px) and (min-width: 600.5px)  {
+
+  .Skills{
+    display: block;
+  }
+  .Skills .para{
+    font-size: 0.9rem;
+  }
+  .Skills .left-col{
+    place-items: center;
+    width: 100vw;
+  }
+  .Skills .right-col{
+    padding: 0 90px 50px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -47,11 +75,9 @@ display: flex;
   padding: 0;
   }
   .Skills .para {
-  font-size: 3.5vw;
+  font-size: 3vw;
+  margin-bottom: 50px;
   width: 100%;
   }
-  .SkillCard:nth-child(even){
-    transform: translateY(0px) !important;
-  }
-}
 
+}
