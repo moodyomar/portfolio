@@ -1,26 +1,72 @@
 .Projects{
 display: flex;
 width: 100vw;
+height: 100vh;
 overflow: hidden;
-margin-bottom: 100px;
   }
   .Project{
     display: flex;
-    margin-bottom: 100px;
   }
 .Projects .right-col{
 padding: 0px 100px;
+max-height: 600px;
+/* background-color: red; */
   }
 
 .Projects .left-col{
-padding-top: 50px;
 display: flex;
 align-items: center;
 width: 50vw;
-height: 600px;
+max-height: 600px;
+/* background-color: blue; */
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 1150px) {
+    .Projects .para{
+      font-size: 1.1vw;
+      width: 30vw;
+    } 
+  }
+  @media only screen and (max-width: 1150px) and (min-width: 800.5px)  {
+
+.Projects .para{
+  font-size: 1.5vw;
+  width: 30vw;
+}
+.Projects h2{
+  width: 270px;
+}
+.Projects .left-col{
+  width: 50vw;
+
+  }
+  .Projects  .right-col{
+  width: 50vw;
+  }
+  }
+  /* fix about 200px that is not responsive  */
+  @media only screen and (max-width: 820px) and (min-width: 600.5px)  {
+  
+    .Projects .right-col{
+      margin-bottom: 100px;
+      width: 50vw;
+    }
+    .Projects .left-col{
+      width: 40vw;
+      }
+    .Projects .para{
+      font-size: 2vw;
+      width: 500px;
+    }
+    .Projects h2{
+      font-size: 1.5rem;
+      width: 270px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 820px) {
     .Project{
       display: block;
       height: 50vh;
@@ -31,7 +77,7 @@ height: 600px;
     .Projects  .right-col{
     flex-direction: column;
     }
-
-  
   }
+
+
   

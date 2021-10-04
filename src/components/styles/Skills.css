@@ -21,6 +21,8 @@ grid-template-columns: repeat(2,1fr);
 width: 55vw;
 order: 1;
 justify-items: center;
+margin-bottom: 50px;
+margin-top: 50px;
 }
 
 .Skills .right-col{

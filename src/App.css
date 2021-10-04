@@ -68,7 +68,16 @@ box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.20);
     linear-gradient(180deg,var(--color-text-orange2) 100%,var(--color-text-orange1) 0%);
     transform: scale(1.05) !important;
   }
+.readMore{
+color: var(--color-text-orange1);
+transition: .1s all ;
 
+}
+.readMore:hover{
+transition: .1s all ;
+margin-left: 10px;
+cursor: pointer;
+}
   .right-col{
     display: flex;
     flex-direction: column;

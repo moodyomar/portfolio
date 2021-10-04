@@ -5,6 +5,7 @@ border-radius: 25px;
 background-color: rgba(255, 255, 255, 0.45);
 transform: rotate(-10deg);
 transition: .25s all;
+position: absolute;
 }
 
 .ProjectCardInner{
@@ -12,12 +13,19 @@ width: 550px;
 height: 450px;
 background-color: #fff;
 background-size: cover;
-background-repeat: no-repeat;
 background-position: center;
 border-radius: 25px;
 position: absolute;
 transform: rotate(-10deg);
 transition: .8s all ease;
+box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.50);
+
+}
+#p1{
+  background-image: url('../../assets/devmeet.png');
+}
+#p2{
+  background-image: url('../../assets/petme.png');
 }
 .ProjectCardInner:hover{
 cursor: pointer;
@@ -31,6 +39,35 @@ animation: alternate infinite .8s float;
   transform: rotate(0deg);
 }
 
+@media screen and (min-width: 1150px) {
+
+  .ProjectCardInner{
+    background-color: red;
+  }
+      
+}
+@media only screen and (max-width: 1150px) and (min-width: 800px)  {
+  .ProjectCard{
+    width: 380px;
+    height: 330px;
+    }
+    
+    .ProjectCardInner{
+    width: 380px;
+    height: 330px;
+    }
+}
+@media only screen and (max-width: 800px) and (min-width: 600.5px)  {
+  .ProjectCard{
+    width: 360px;
+    height: 300px;
+    }
+    
+    .ProjectCardInner{
+    width: 360px;
+    height: 300px;
+    }
+}
 
 @media screen and (max-width: 600px) {
   .ProjectCard{
@@ -43,5 +80,12 @@ animation: alternate infinite .8s float;
     width: 300px;
     height: 250px;
     border-radius: 25px;
+    }
+    .Projects .para{
+      width: 75vw;
+      font-size: 3vw;
+    }
+    .Projects .right-col{
+      padding: 0px 50px
     }
 }
