@@ -27,6 +27,9 @@ box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.50);
 #p2{
   background-image: url('../../assets/petme.png');
 }
+#p3{
+  background-image: url('../../assets/bizup.png');
+}
 .ProjectCardInner:hover{
 cursor: pointer;
 animation: alternate infinite .8s float;
@@ -41,9 +44,6 @@ animation: alternate infinite .8s float;
 
 @media screen and (min-width: 1200px) {
 
-  .ProjectCardInner{
-    background-color: red;
-  }
       
 }
 @media only screen and (max-width: 1200px) and (min-width: 800px)  {

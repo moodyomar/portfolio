@@ -6,7 +6,7 @@ import {customAos} from '../../utils/customAos';
 const ProjectCard = ({id}) => { 
 
   useEffect(() => {
-    customAos('onReach',`#${id}`,150)
+    customAos('onReach',`#${id}`,300)
 })
   
 return(
