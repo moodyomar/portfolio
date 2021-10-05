@@ -78,14 +78,7 @@ transition: .1s all ;
 margin-left: 10px;
 cursor: pointer;
 }
-  .right-col{
-    display: flex;
-    flex-direction: column;
-  }
-  .left-col{
-    display: flex;
-    flex-direction: column;
-  }
+
   h2{
     font-size: 2.5vw;
     }

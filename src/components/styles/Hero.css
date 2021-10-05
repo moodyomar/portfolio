@@ -17,14 +17,14 @@ top: 10px;
   padding: 30px;
 }
 .left-col p:first-child{
-  padding-top: 100px;
+  padding-top: 15vh;
 color: var(--color-bright-green);
 margin-bottom: 15px;
 }
 .para {
-  font-size: 1vw;
-  width: 500px;
+font-size: 1vw;
 letter-spacing: 1px;
+width: 35vw;
 margin: 20px 0px 30px;
 color:var(--color-text-secondary);
 }
@@ -80,21 +80,33 @@ h1 span {
 animation: alternate infinite .5s float;
 
 }
+.pushLeftIcons{
+  animation:  both 2s pushLeft;
+}
+@keyframes pushLeft {
+  100%{transform: translateX(-100px);}
+}
+.pushRightIcons{
+  animation: forwards 2s pushRight;
+}
+@keyframes pushRight {
+  100%{transform: translateX(100px);}
+}
 
 .bRight{
-  right: 45px;
+  right: 85px;
   top: 450px;
   }
   .bLeft{
 top: 450px;
-right: 45vw;
-  }
+right: 42vw;
+}
   .tRight{
-    right: 120px;
+    right: 170px;
     top: 100px;
   }
   .tLeft{
-right: 40vw;
+right: 35vw;
 top: 100px;
   }
 
@@ -104,6 +116,9 @@ top: 100px;
 
 
 @media screen and (max-width: 1350px) {
+  .left-col p:first-child{
+    padding-top: 25px;
+  }
   .Hero{
     height: auto;
   }
@@ -172,11 +187,11 @@ display: block;
 .Hero{
 display: block;
 }
-.left-col{
+.Hero .left-col{
 display: grid;
 place-items: center;
 }
-.right-col{
+.Hero .right-col{
 height: 50vh;
 display: grid;
 place-items: center;

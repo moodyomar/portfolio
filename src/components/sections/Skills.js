@@ -22,7 +22,7 @@ btn={'Download CV'} />
 </div>
 <div className="left-col">
   {skills.map(skill => (
-<SkillCard icon={skill.icon} title={skill.title}
+<SkillCard key={skill.title} icon={skill.icon} title={skill.title}
  desc={skill.desc} direction={skill.animation} />
   ))}
 </div>

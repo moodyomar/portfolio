@@ -30,7 +30,7 @@ return(
 
 <div className='Navbar'>
 <div className="logo"  data-aos="fade-right" data-aos-duration="600">
-  <h2><img alt="" /></h2>
+  <h2><img alt="Logo" /></h2>
 </div>
 <nav>
 <ul>
@@ -41,10 +41,10 @@ return(
 </ul>
 </nav>
 <div className="navSetting">
-  <div onClick={switchIt} className="themeSwitcher"><div class="theme-switch-wrapper">
-    <label class="theme-switch" for="checkbox">
+  <div onClick={switchIt} className="themeSwitcher"><div className="theme-switch-wrapper">
+    <label className="theme-switch" for="checkbox">
         <input type="checkbox" id="checkbox" />
-        <div class="slider round"></div>
+        <div className="slider round"></div>
   </label>
 </div></div>
   <AiOutlineMenu size={25} className="burgerMenu" />

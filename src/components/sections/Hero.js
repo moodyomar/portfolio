@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { SiJavascript,SiReact,SiCss3  } from 'react-icons/si';
+import {customAos} from '../../utils/customAos';
+
 import { BiCodeAlt  } from 'react-icons/bi';
 
 import '../styles/Hero.css';
 
 const Hero = () => {
+
+    useEffect(() => {
+      if(window.visualViewport.width > 800){
+      customAos('pushLeftIcons','.bLeft',-100)
+      customAos('pushLeftIcons','.tLeft',-130)
+      customAos('pushRightIcons','.bRight',-130)
+      customAos('pushRightIcons','.tRight',-130)
+      }
+  },[])
 
   return (
 

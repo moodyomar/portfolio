@@ -1,66 +1,43 @@
 .Projects{
 display: flex;
+flex-direction: column;
 width: 100vw;
 height: 100vh;
 overflow: hidden;
   }
   .Project{
-    display: flex;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
   }
 .Projects .right-col{
 padding: 0px 100px;
 max-height: 600px;
-/* background-color: red; */
   }
 
 .Projects .left-col{
 display: flex;
 align-items: center;
-width: 50vw;
 max-height: 600px;
 /* background-color: blue; */
   }
 
-  @media screen and (min-width: 1150px) {
-    .Projects .para{
-      font-size: 1.1vw;
-      width: 30vw;
-    } 
-  }
-  @media only screen and (max-width: 1150px) and (min-width: 800.5px)  {
-
-.Projects .para{
-  font-size: 1.5vw;
-  width: 30vw;
+  @media screen and (min-width: 1200px) {
+.Project{
+background-color: rgba(255, 0, 0, 0.349);
 }
-.Projects h2{
-  width: 270px;
-}
-.Projects .left-col{
-  width: 50vw;
+  }
+  @media only screen and (max-width: 1200px) and (min-width: 800.5px)  {
 
-  }
-  .Projects  .right-col{
-  width: 50vw;
-  }
+    .Project{
+      background-color: rgba(128, 0, 128, 0.308);
+    }
   }
   /* fix about 200px that is not responsive  */
   @media only screen and (max-width: 820px) and (min-width: 600.5px)  {
   
-    .Projects .right-col{
-      margin-bottom: 100px;
-      width: 50vw;
-    }
-    .Projects .left-col{
-      width: 40vw;
-      }
-    .Projects .para{
-      font-size: 2vw;
-      width: 500px;
-    }
-    .Projects h2{
-      font-size: 1.5rem;
-      width: 270px;
+    .Project{
+      background-color: rgba(0, 128, 0, 0.363);
     }
 
   }
@@ -68,14 +45,14 @@ max-height: 600px;
 
   @media screen and (max-width: 820px) {
     .Project{
-      display: block;
-      height: 50vh;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      background-color: rgba(255, 255, 0, 0.295);
+      gap: 50px;
     }
-    .Projects .left-col{
-    width: 100vw;
-    }
-    .Projects  .right-col{
-    flex-direction: column;
+    .Project .para {
+      font-size: 1.7vw;
+      width: 70vw;
     }
   }
 
