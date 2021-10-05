@@ -61,7 +61,6 @@ h1 span {
   right: 5vw;
 }
 .icon{
-  z-index: 5;
   position: absolute;
   display: grid;
   place-items: center;
@@ -78,19 +77,13 @@ h1 span {
 }
 .icon:hover{
 animation: alternate infinite .5s float;
-
 }
 .pushLeftIcons{
-  animation:  both 2s pushLeft;
+  transform: translateX(-100px) !important;
 }
-@keyframes pushLeft {
-  100%{transform: translateX(-100px);}
-}
+
 .pushRightIcons{
-  animation: forwards 2s pushRight;
-}
-@keyframes pushRight {
-  100%{transform: translateX(100px);}
+  transform: translateX(100px) !important;
 }
 
 .bRight{

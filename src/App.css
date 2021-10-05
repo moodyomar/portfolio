@@ -16,6 +16,7 @@ box-sizing: border-box;
 [data-theme="dark"]{
 --color-icons-bg: #2d2e32;
 --color-bg: #2D2F32;
+--transpernt-primary:rgba(255, 255, 255, 0.45);
 --color-text-orange1: #fecd1a;
 --color-text-orange2: #ffaf29;
 --color-bright-green: #64f4ab;
@@ -30,6 +31,7 @@ box-sizing: border-box;
 [data-theme="light"]{
 --color-icons-bg: #d0d0d0;
 --color-bg: #FFFFFF;
+--transpernt-primary:rgb(0, 0, 0,0.45);
 --color-text-orange1: #fecd1a;
 --color-text-orange2: #ffaf29;
 --color-bright-green: #327a56;

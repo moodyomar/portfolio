@@ -5,6 +5,7 @@ import {customAos} from '../../utils/customAos';
 import { BiCodeAlt  } from 'react-icons/bi';
 
 import '../styles/Hero.css';
+import ReusablePara from '../common/ReusablePara';
 
 const Hero = () => {
 
@@ -17,14 +18,18 @@ const Hero = () => {
       }
   },[])
 
+  const heading = <h1 data-aos="fade-down" data-aos-duration="2000">Hello<br /> <span>I'm Moody<br />Omar</span></h1>
+
   return (
 
     <div className='Hero'>
       <div className="left-col">
-        <p data-aos="fade-down" data-aos-duration="2000">--Introduction</p>
-        <h1 data-aos="fade-down" data-aos-duration="2000">Hello<br /> <span>I'm Moody<br />Omar</span></h1>
-        <p className="para" data-aos="fade-up" data-aos-duration="2200">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt accusantium et voluptas minus delectus saepe asperiores. Est voluptatem quisquam quidem, doloribus blanditiis odit.</p>
-        <div className="btn" data-aos="fade-up" data-aos-duration="2000">Contact Me</div>
+        <ReusablePara 
+intro={'Introduction'}
+h1={heading}
+para={"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can."}
+btnClass={'btn'}
+btn={'Contact Me'} />
       </div>
       <div className="right-col">
         <div className="ring"></div>
