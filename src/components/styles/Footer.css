@@ -1,0 +1,24 @@
+.socialIcon{
+  margin-right: 5px;
+}
+.socialIcon:hover{
+  transition: .3s;
+  cursor: pointer;
+  color: var(--color-text-orange1);
+}
+.Footer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+a{
+  color: #fff;
+}
+@media screen and (max-width: 950px) {
+  .Footer{
+    grid-template-columns: repeat(1,1fr);
+  } 
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+}

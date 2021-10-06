@@ -13,6 +13,9 @@ margin-bottom: 100px;
     width: 190px !important;
     height: 190px !important;
   }
+  .Testimonials .right-col{
+    padding-top: 50px;
+  }
 #bar{
 width: 790px !important;
 }

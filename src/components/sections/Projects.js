@@ -26,7 +26,7 @@ const Projects = () => {
 
       <Splitter />
       
-      <Project intro={' Project 3'} title={'CRM - Company CRM (Angular & Firebase)'} content={"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can."} btnClass={'readMore'} btn={'Read More'} flip={true} icon={true} id={'p4'} link={'macrm'} />
+      <Project intro={' Project 4'} title={'CRM - Company CRM (Angular & Firebase)'} content={"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can."} btnClass={'readMore'} btn={'Read More'} flip={true} icon={true} id={'p4'} link={'macrm'} />
 
 
 
