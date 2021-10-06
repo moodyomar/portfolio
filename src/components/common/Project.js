@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ProjectCard from '../cards/ProjectCard';
 import Para from './Para';
 
 
-const Project = ({ intro, title, content, btnClass, btn, icon, flip = false, id }) => {
+const Project = ({ intro, title, content, btnClass, btn, icon, flip = false, id ,link}) => {
 
   return (
 
@@ -17,9 +18,9 @@ const Project = ({ intro, title, content, btnClass, btn, icon, flip = false, id 
           btn={btn} icon={icon} />
 
       </div>
-      <div className={`left-col ${flip && 'flipToRight'}`}>
+      <Link to={{ pathname: `https://${link}.netlify.app` }} target="_blank" className={`left-col ${flip && 'flipToRight'}`}>
         <ProjectCard id={id} />
-      </div>
+      </Link>
     </div>
 
   )
