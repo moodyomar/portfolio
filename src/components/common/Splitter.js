@@ -6,7 +6,7 @@ const Splitter = () => {
 return(
 
 <div className="splitter" style={{width:'100vw',
-  height: '250px',}}></div>
+  height: '200px',}}></div>
 
 )
 }

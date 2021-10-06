@@ -35,16 +35,16 @@ const Hero = () => {
       <div className="right-col">
         <div className="ring"></div>
         <div className="person" data-aos="fade-up" data-aos-duration="1800"></div>
-        <div className="icon bLeft" style={sIcon}
+        <div className="icon bLeft" 
           data-aos="zoom-in" data-aos-duration="2100"
         ><SiReact /></div>
-        <div className="icon tLeft" style={sIcon}
+        <div className="icon tLeft" 
           data-aos="zoom-in" data-aos-duration="2100"
         ><BiCodeAlt /></div>
-        <div className="icon tRight" style={sIcon}
+        <div className="icon tRight" 
           data-aos="zoom-in" data-aos-duration="2100"
         ><IoLogoJavascript /></div>
-        <div className="icon bRight" style={sIcon}
+        <div className="icon bRight" 
           data-aos="zoom-in" data-aos-duration="2100"
         ><SiCss3 /></div>
       </div>
@@ -53,17 +53,5 @@ const Hero = () => {
   )
 }
 
-const sIcon = {
-  position: 'absolute',
-  display: 'grid',
-  placeItems: 'center',
-  fontSize: '2rem',
-  fontWeight: '500',
-  width: '95px',
-  height: '95px',
- borderRadius: '50%',
-  transition: '.5s all linear',
-  boxShadow: '5px 5px 15px 5px rgba(0,0,0,0.25)'
-}
 
 export default Hero

@@ -59,8 +59,18 @@ h1 span {
   right: 5vw;
 }
 .icon{
+  position: absolute;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 95px;
+  height: 95px;
+ border-radius: 50%;
   background-color: var(--color-icons-bg);
   color: var(--color-bright-green);
+  transition: .25s all linear;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
 }
 .icon:hover{
 animation: alternate infinite .5s float;
