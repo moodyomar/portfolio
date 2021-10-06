@@ -33,7 +33,6 @@ nav ul li a{
 nav ul li a:hover{
   color:var(--color-text-primary);
   transition: .25s all linear;
-  font-weight: 800;
 }
 
 .underline::after{
@@ -49,9 +48,7 @@ content:"";
 width: 95px;
 height: 3px;
 background-color: var(--color-text-primary);
-display: block;
 transition: .25s all linear;
-cursor: pointer;
 }
 .underline.home:hover::after{
 width: 70px;
@@ -68,15 +65,10 @@ width: 88px;
   align-items: center;
 }
 .themeSwitcher{
-cursor: pointer;
 margin-right: 25px;
-
 }
 
-
-
 /* toggle switch */
-
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
@@ -99,12 +91,9 @@ margin-right: 25px;
 .slider {
   transition: ease-out .2s;
   background-color: var(--color-text-secondary);
-  bottom: 0;
   cursor: pointer;
-  left: 0;
+  inset: 0;
   position: absolute;
-  right: 0;
-  top: 0;
   transition: .4s;
 }
 .slider:before {

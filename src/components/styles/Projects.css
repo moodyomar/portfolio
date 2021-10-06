@@ -43,9 +43,6 @@ max-height: 600px;
     .Project{
       grid-template-areas: "flipToRight flipToLeft ";
     }
-    .flipToLeft{
-      grid-area: flipToLeft;
-    }
     .flipToRight{
       grid-area: flipToRight;
     }

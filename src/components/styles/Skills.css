@@ -2,11 +2,10 @@
 display: flex;
 width: 100vw;
 overflow: hidden;
-margin-bottom: 100px;
 }
 
 p:first-child{
-  padding-top: 100px;
+padding-top: 100px;
 color: var(--color-bright-green);
 margin-bottom: 15px;
 }
@@ -18,15 +17,13 @@ width: 100%;
 .Skills .left-col{
 display: grid;
 grid-template-columns: repeat(2,1fr);
-width: 55vw;
 order: 1;
 justify-items: center;
-margin-bottom: 50px;
-margin-top: 50px;
+margin: 100px 0 100px;
 }
 
 .Skills .right-col{
-  padding: 50px;
+padding: 50px;
 order: 2;
 }
 
@@ -34,7 +31,6 @@ order: 2;
   .SkillCard:nth-child(even){
     transform: translateY(30px) !important;
     }
-    
 }
 
 @media only screen and (max-width: 1150px) and (min-width: 600px)  {

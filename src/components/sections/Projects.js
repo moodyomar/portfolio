@@ -31,7 +31,7 @@ btn={'Read More'} icon={true} />
 </div>
 
 <div className="Project">
-<div className="right-col flipToLeft">
+<div className="right-col ">
 <ReusablePara 
 intro={' Project 2'}
 title={'PetMe - Dog Adoption Association (MEAN)'}
@@ -61,7 +61,7 @@ icon={true} />
 </div>
 
 <div className="Project">
-<div className="right-col flipToLeft">
+<div className="right-col ">
 <ReusablePara 
 intro={' Project 4'}
 title={'CRM - Company CRM (Angular & Firebase)'}
