@@ -26,7 +26,9 @@ max-height: 600px;
   margin-right: 5px;
   font-size: 1.2rem;
 }
-
+.viewAll{
+  
+}
   @media screen and (max-width: 820px) {
     .Project{
       display: grid;
