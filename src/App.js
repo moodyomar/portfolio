@@ -1,5 +1,6 @@
 import {BrowserRouter as Router,Route} from "react-router-dom";
 import Navbar from './components/common/Navbar'
+import Footer from './components/common/Footer'
 import Hero from './components/sections/Hero'
 import Skills from './components/sections/Skills'
 import Projects from './components/sections/Projects'
@@ -26,7 +27,7 @@ function App() {
 </main>
 
 <footer>
-
+<Footer />
 </footer>
 
 </Router>
