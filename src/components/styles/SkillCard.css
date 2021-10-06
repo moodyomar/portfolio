@@ -1,14 +1,5 @@
 .SkillCard{
-  margin: 15px;
-width: 300px;
-height: 300px;
 background-color: var(--color-tiles-bg);
-border-radius: 15px; 
-padding: 30px;
-display: grid;
-place-items: center;
-transition: all .25s ease-out;
-box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.20);
 }
 .SkillCard:hover{
   background-image: linear-gradient(var(--color-bright-green),var(--color-dark-green));
@@ -20,15 +11,8 @@ box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.20);
 background-image: linear-gradient(var(--color-bright-green),var(--color-dark-green));
 }
 .skillIcon{
-border-radius: 50%;
-width: 100px;
-height: 100px;
 border: 1px solid var(--color-bright-green);
 background-color: var(--color-icons-bg);
-display: grid;
-place-items: center;
-transition: all .3s ease;
-font-size: 2rem;
 }
 .skillTitle{
   font-size: 1.6rem;

@@ -11,10 +11,11 @@ const ProjectCard = ({id}) => {
   
 return(
   <>
-<div className="ProjectCard"></div>
+<div className="ProjectCard" ></div>
 <div className="ProjectCardInner" id={id}></div>
 </>
 )
 }
+
 
 export default ProjectCard

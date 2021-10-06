@@ -17,6 +17,7 @@ border-radius: 25px;
 transform: rotate(-10deg);
 transition: .8s all ease;
 box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.50);
+
 }
 #p1{
   background-image: url('../../assets/devmeet.png');

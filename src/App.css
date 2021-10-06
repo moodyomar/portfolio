@@ -18,6 +18,7 @@ box-sizing: border-box;
 --color-bright-green: #64f4ab;
 --color-dark-green: #327a56;
 --color-text-secondary: #e8e8e8;
+--color-splitter: #652b3e72;
 --color-tiles-bg: #25262a;
 --color-text-primary: #fff;
 --logo:url('./assets/logo.svg');
@@ -33,6 +34,7 @@ box-sizing: border-box;
 --color-bright-green: #327a56;
 --color-dark-green: #64f4ab;
 --color-text-secondary: #25262a;
+--color-splitter: #9b5f5f4a;
 --color-tiles-bg: #e8e8e8;
 --color-text-primary: #000;
 --logo:url('./assets/logo_dark.svg');
@@ -76,7 +78,10 @@ transition: .1s all ;
 margin-left: 10px;
 cursor: pointer;
 }
-
+.splitter{
+  background: var(--color-bg);
+  background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-splitter) 50%, var(--color-bg) 100%);
+}
   h2{
     font-size: 2.5vw;
     }
