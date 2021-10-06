@@ -10,11 +10,11 @@ import Para from '../common/Para';
 const Hero = () => {
 
   useEffect(() => {
-    if (window.visualViewport.width > 800) {
-      customAos('pushLeftIcons', '.bLeft', -100)
-      customAos('pushLeftIcons', '.tLeft', -130)
-      customAos('pushRightIcons', '.bRight', -130)
-      customAos('pushRightIcons', '.tRight', -130)
+    if (window.visualViewport.width > 600) {
+      customAos('pushLeftIcons', '.bLeft', -90)
+      customAos('pushLeftIcons', '.tLeft', -90)
+      customAos('pushRightIcons', '.bRight', -90)
+      customAos('pushRightIcons', '.tRight', -90)
     }
   }, [])
 

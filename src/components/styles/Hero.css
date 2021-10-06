@@ -47,6 +47,7 @@ h1 span {
   position: absolute;
   bottom: 10px;
   right: 10vw;
+  z-index: 5;
 }
 
 .ring{
@@ -75,11 +76,11 @@ h1 span {
 animation: alternate infinite .5s float;
 }
 .pushLeftIcons{
-  transform: translateX(-100px) !important;
+  transform: translateX(-50px) !important;
 }
 
 .pushRightIcons{
-  transform: translateX(100px) !important;
+  transform: translateX(50px) !important;
 }
 
 .bRight{
@@ -157,7 +158,6 @@ top: 100px;
   .icon{
     width: 50px;
     height: 50px;
-    font-size: 1.2rem;
   }
   .ring{
     width: 350px;
@@ -166,6 +166,9 @@ top: 100px;
   .person{
     width: 260px;
     height:  350px;
+  }
+  .tRight{
+    right: 100px;
   }
 }
 
