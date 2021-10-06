@@ -43,16 +43,11 @@ animation: alternate infinite .8s float;
   transform: rotate(0deg);
 }
 
-@media screen and (min-width: 1200px) {
-
-      
-}
 @media only screen and (max-width: 1200px) and (min-width: 800px)  {
   .ProjectCard{
     width: 380px;
     height: 330px;
     }
-    
     .ProjectCardInner{
     width: 380px;
     height: 330px;

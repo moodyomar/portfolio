@@ -73,7 +73,7 @@ body{
   #vAll{
     transition: .3s all;
     background-color: var(--color-text-secondary);
-    box-shadow: 3px 5px 15px 0px var(--transpernt-primary);
+    box-shadow: 3px 5px 10px 0px var(--transpernt-primary);
     margin-bottom: 20px;
     font-size: 15px;
   }
