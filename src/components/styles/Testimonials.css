@@ -45,6 +45,10 @@ width: 790px !important;
   .Testimonials .ProjectCard,.Testimonials .ProjectCardInner {
     width: 250px;
     }
+    .contact{
+      height: 45vh !important;
+      width: 80vw !important;
+    }
   #square{
     width: 415px !important;
     height: 215px;
