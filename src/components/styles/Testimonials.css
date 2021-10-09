@@ -6,21 +6,45 @@ width: 100vw;
 overflow: hidden;
 margin-bottom: 100px;
 }
-
-
+.contact h2::before{
+content:'';
+height: 5px;
+width: 80px;
+text-align: center;
+margin: 0 auto;
+display: block;
+margin-bottom: 5px;
+background-color: #327a56;
+}
+.contact{
+  background-color: var(--color-tiles-bg);
+}
+.contact p {
+width: 40vw;
+}
+.Testimonials .Project .right-col h2 {
+  font-size: 1.5rem;
+}
+.Testimonials .ProjectCard,.Testimonials .ProjectCardInner {
+width: 400px;
+}
+.Testimonials .left-col,.Testimonials .right-col{
+display: grid;
+place-items: center;
+}
 @media only screen and (max-width: 1250px) and (min-width: 820.5px)  {
   #square{
     width: 190px !important;
     height: 190px !important;
-  }
-  .Testimonials .right-col{
-    padding-top: 50px;
   }
 #bar{
 width: 790px !important;
 }
 }
 @media screen and (max-width: 820px) { 
+  .Testimonials .ProjectCard,.Testimonials .ProjectCardInner {
+    width: 250px;
+    }
   #square{
     width: 415px !important;
     height: 215px;
