@@ -14,7 +14,7 @@ top: 10px;
   display: flex;
   flex-direction: column;
   min-width: 35vw;
-  padding: 40px;
+  padding: 0 40px;
 }
 .left-col p:first-child{
   padding-top: 15vh;

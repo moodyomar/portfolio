@@ -22,7 +22,7 @@ borderRadius: '15px',
 padding: '30px',
 display: 'grid',
 placeItems: 'center',
-transition: 'all .25s ease-out',
+transition: 'all .6s ease-out',
 boxShadow: '1px 1px 10px 1px rgba(0,0,0,0.20)',
 }
 const sIcon = {
