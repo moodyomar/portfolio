@@ -17,6 +17,7 @@ top: 10px;
   padding: 0 40px;
 }
 .left-col p:first-child{
+  width: 75%;
   padding-top: 15vh;
 color: var(--color-bright-green);
 margin-bottom: 15px;
@@ -140,17 +141,23 @@ top: 100px;
   }
 }
 
-@media screen and (max-width: 1150px) and (min-width: 600px) {
+@media screen and (max-width: 1150px) and (min-width: 820.5px) {
 
 .ring{
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
 }
 .person{
-  width: 325px;
-  height:  450px;
+  width: 300px;
+  height:  400px;
 }
 
+.tLeft,.tRight{
+  top: 50px;
+  }
+  .bLeft,.bRight{
+  top: 280px;
+  }
 }
 
 /* fix about 200px that is not responsive  */
@@ -159,6 +166,12 @@ top: 100px;
     width: 50px;
     height: 50px;
   }
+  .tLeft,.tRight{
+    top: 100px;
+    }
+    .bLeft,.bRight{
+    top: 250px;
+    }
   .ring{
     width: 350px;
     height: 350px;

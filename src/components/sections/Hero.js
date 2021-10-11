@@ -12,10 +12,10 @@ const Hero = () => {
 
   useEffect(() => {
     if (window.visualViewport.width > 600) {
-      customAos('pushLeftIcons', '.bLeft', -90)
-      customAos('pushLeftIcons', '.tLeft', -90)
-      customAos('pushRightIcons', '.bRight', -90)
-      customAos('pushRightIcons', '.tRight', -90)
+      customAos('pushLeftIcons', '.bLeft', -30)
+      customAos('pushLeftIcons', '.tLeft', -30)
+      customAos('pushRightIcons', '.bRight', -70)
+      customAos('pushRightIcons', '.tRight', -70)
     }
   }, [])
 
@@ -28,7 +28,7 @@ const Hero = () => {
         <Para
           intro={'Introduction'}
           h1={heading}
-          para={"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone."}
+          para={"I’m a creative Web Developer with a great experience in design and some experience in the e-commerce world with a deep passion for ‏everything related to computers and tech since forever."}
           btnClass={'btn'}
           btn={'Contact Me'} />
       </div>

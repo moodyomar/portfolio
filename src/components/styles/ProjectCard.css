@@ -58,13 +58,14 @@ animation: alternate infinite .8s float;
 }
 @media only screen and (max-width: 800px) and (min-width: 600.5px)  {
   .ProjectCard{
-    width: 360px;
-    height: 300px;
+    width: 400px;
+    height: 340px;
+    background-color: red;
     }
     
     .ProjectCardInner{
-    width: 360px;
-    height: 300px;
+    width: 400px;
+    height: 340px;
     }
 }
 
