@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
-import { SiReact, SiCss3 } from 'react-icons/si';
+import { SiReact, SiCss3,SiHtml5 } from 'react-icons/si';
 import {IoLogoJavascript } from 'react-icons/io';
 import { customAos } from '../../utils/customAos';
-
-import { BiCodeAlt } from 'react-icons/bi';
 
 import '../styles/Hero.css';
 import Para from '../common/Para';
@@ -30,7 +28,8 @@ const Hero = () => {
           h1={heading}
           para={"I’m a creative Web Developer with a great experience in design and some experience in the e-commerce world with a deep passion for ‏everything related to computers and tech since forever."}
           btnClass={'btn'}
-          btn={'Contact Me'} />
+          btn={'Contact Me'} 
+          link={'mailto:contact@devmoody.com'}/>
       </div>
       <div className="right-col">
         <div className="ring"></div>
@@ -40,7 +39,7 @@ const Hero = () => {
         ><SiReact /></div>
         <div className="icon tLeft" 
           data-aos="zoom-in" data-aos-duration="2100"
-        ><BiCodeAlt /></div>
+        ><SiHtml5 /></div>
         <div className="icon tRight" 
           data-aos="zoom-in" data-aos-duration="2100"
         ><IoLogoJavascript /></div>

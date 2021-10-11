@@ -1,13 +1,14 @@
 import React from 'react';
 import '../styles/SkillCard.css';
-import { SiVisualstudiocode,SiCodesandbox,SiCodeship,SiLeetcode } from 'react-icons/si';
+import { FaTools,FaReact,FaCode } from 'react-icons/fa';
+import { MdDevicesOther, } from 'react-icons/md';
 
 const SkillCard = ({icon,title,desc,direction}) => { 
 
 return(
 
 <div className='SkillCard' style={sCard} data-aos={`fade-${direction}`} data-aos-duration="1000">
-<div className="skillIcon" style={sIcon}>{(icon === 'SiVisualstudiocode' && <SiVisualstudiocode/>) || (icon === 'SiCodesandbox' && <SiCodesandbox/>) || (icon === 'SiCodeship' && <SiCodeship/>) || (icon === 'SiLeetcode' && <SiLeetcode/>) }</div>
+<div className="skillIcon" style={sIcon}>{(icon === 'FaReact' && <FaReact/>) || (icon === 'FaTools' && <FaTools/>) || (icon === 'MdDevicesOther' && <MdDevicesOther/>) || (icon === 'FaCode' && <FaCode/>) }</div>
 <div className="skillTitle">{title}</div>
 <div className="skillDesc">{desc}</div>
 </div>

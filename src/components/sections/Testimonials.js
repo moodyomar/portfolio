@@ -27,7 +27,7 @@ return(
 
 <div className="contact" style={contactCard}>
   <h2>Lets Work Together</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsam nihil eaque soluta porro fuga, labore, obcaecati iusto adipisci quam fugiat vero sit repudiandae fugit.</p>
+  <p>I'm currently searching for a MERN / Front-end / Full Stack position, I'm Always open for contributions in open source projects or even build your own project from zero.</p>
   <button className="btn">Contact Me</button>
 </div>
 
@@ -44,6 +44,7 @@ const bar = {
   marginBottom:'100px'
 }
 const contactCard = {
+  textAlign:'center',
   width: '65vw',
   height: '300px',
   display: 'flex',

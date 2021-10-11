@@ -16,8 +16,9 @@ const Skills = () => {
         <Para
           intro={'My Skills'}
           title={'Why Hire Me For Next Project?'}
-          para={"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can."}
-          btn={'Download CV'} />
+          para={"Lots of motivation, Consistency, Positive energy and responsibility with great passion. I'm definitely a team player, Very eager to learn new technologies and always strives beyond the sky. Experience working with Wordpress, owner of an active e-commerce store and a small Branding Agency offering business promotions as a side hustle."}
+          btn={'Download CV'}
+          link={'https://www.linkedin.com/in/moodyomar/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAC9cRksBw_oW8mDFpsR1eT7819vRIVStggQ,1635466576525)/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BQHzCPNvQScOhDmpG90WVOQ%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-featured_item_detail_view'} />
 
       </div>
       <div className="left-col">

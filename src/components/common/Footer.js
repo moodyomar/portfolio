@@ -14,7 +14,7 @@ return(
 <div className="logo">
   <h2><img alt="Logo" /></h2>
 </div>
-<p style={footer.paraFooter}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliquam incidunt.</p>
+<p style={footer.paraFooter}>Please feel free to reach me out on my other social media platforms for any question or request needed.</p>
 <div style={footer.socialFooter}>
  <Link to={{ pathname: `https://instagram.com/moodyomarz` }} target="_blank" className="socialIcon"><AiFillInstagram size={25} /></Link>
  <Link to={{ pathname: `https://facebook.com/moodyomarz` }} target="_blank" className="socialIcon"><AiFillFacebook size={25}/></Link>

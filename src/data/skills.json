@@ -1,26 +1,26 @@
 [
   {
-    "icon":"SiVisualstudiocode",
-    "title":"Chakra Flowing",
-    "desc":"The technological revolution is changing aspect",
+    "icon":"FaCode",
+    "title":"Main Languages",
+    "desc":" HTML for markup , CSS for style sheet , & JavaScript the only actual programming language among them.",
     "animation":"left"
   },
   {
-    "icon":"SiCodesandbox",
-    "title":"Super Sayain",
-    "desc":"The technological revolution is changing aspect",
+    "icon":"FaReact",
+    "title":"Frameworks & Libraries",
+    "desc":"React.js , Redux , Angular Bootstrap, and Node.js which is a Javascript Runtime Environment",
     "animation":"right"
   },
   {
-    "icon":"SiCodeship",
-    "title":"Kurama Mode",
-    "desc":"The technological revolution is changing aspect",
+    "icon":"MdDevicesOther",
+    "title":"Responsive Design",
+    "desc":"Natively in CSS & Also I can use Bootstrap as a framwork if needed",
     "animation":"left"
   },
   {
-    "icon":"SiLeetcode",
-    "title":"Bayrone Mode",
-    "desc":"The technological revolution is changing aspect",
+    "icon":"FaTools",
+    "title":"Tools & Apps",
+    "desc":"In Version Control Git and Github, In design Adobe Photoshop, Adobe XD, and Canva.",
     "animation":"right"
   }
 ]

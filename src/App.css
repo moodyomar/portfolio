@@ -48,7 +48,8 @@ body{
   overflow-x: hidden;
 }
 /* Buttons Start */
-.btn{
+.btn,.btn a{
+  text-decoration: none;
   background-image: linear-gradient(91deg,var(--color-text-orange1) 0%,var(--color-text-orange2) 100%);
   border-radius: 14px;
   transition: .1s all ;
@@ -71,6 +72,7 @@ body{
   #vAll{
     transition: .3s all;
     background-color: var(--color-text-secondary);
+    color: var(--color-tiles-bg);
     box-shadow: 3px 5px 10px 0px var(--transpernt-primary);
     margin-bottom: 20px;
     font-size: 15px;
@@ -78,13 +80,15 @@ body{
   
   #vAll:hover{
     transition: .3s all;
-    color: var(--color-text-primary);
+    color: var(--color-text-secondary);
     box-shadow: 3px 5px 15px 0px var(--transpernt-inverted);
     background-color: var(--color-tiles-bg);
   }
-.readMore{
+
+.readMore,.readMore a{
 color: var(--color-text-orange1);
 transition: .25s all ;
+text-decoration: none;
 
 }
 .readMore:hover{
@@ -93,7 +97,6 @@ margin-left: 10px;
 cursor: pointer;
 }
 /* Buttons End */
-
 .splitter{
   background: var(--color-bg);
   background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-tiles-bg) 50%, var(--color-bg) 100%);
