@@ -17,10 +17,10 @@ const Projects = () => {
       {projects.slice(0,3).map(project => {
   let {intro,title,content,btnclass,btn,icon,flip,pId,link,more} = project
         return(
-          <>
-          <Project intro={intro} title={title} content={content} btnClass={btnclass} btn={btn} icon={icon} id={pId} flip={flip} link={link} more={more} />
+          <div key={pId}>
+          <Project key={pId} intro={intro} title={title} content={content} btnClass={btnclass} btn={btn} icon={icon} id={pId} flip={flip} link={link} more={more} />
           <Splitter/>
-          </>
+          </div>
         )
       })}
 

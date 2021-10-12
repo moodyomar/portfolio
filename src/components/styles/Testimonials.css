@@ -48,7 +48,7 @@ width: 790px !important;
   .Testimonials .ProjectCard,.Testimonials .ProjectCardInner {
     width: 250px;
     }
-    .contact{
+    .Testimonials .contact{
       height: 50vh !important;
       width: 80vw !important;
     }

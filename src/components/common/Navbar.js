@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useHistory } from 'react-router-dom';
 import { AiFillHome, AiOutlineMenu,AiFillPhone,AiFillLayout  } from 'react-icons/ai';
 import themeSwitcher from '../../utils/themeSwitcher';
 
@@ -7,13 +7,23 @@ import themeSwitcher from '../../utils/themeSwitcher';
 import '../styles/Navbar.css';
 
 
-const Navbar = () => { 
+const Navbar = ({location}) => { 
+
+const history = useHistory();
 
 const scrollTo = (id) => {
+
+  if(location.pathname !== "/"){
+  history.push("/")
+  return
+  }
+
   let scrollToId = document.querySelector(`#${id}`);
   let y = scrollToId.offsetTop - scrollToId.offsetHeight;
   window.scrollTo({top:y,behavior: 'smooth'})
+
 }
+
 
 return(
 
