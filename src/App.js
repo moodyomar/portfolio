@@ -1,10 +1,10 @@
-import {BrowserRouter as Router,Route} from "react-router-dom";
+import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
 import Navbar from './components/common/Navbar'
 import Footer from './components/common/Footer'
-import Hero from './components/sections/Hero'
-import Skills from './components/sections/Skills'
-import Projects from './components/sections/Projects'
-import Testimonials from './components/sections/Testimonials'
+import Home from "./components/pages/Home";
+import AllProjects from './components/pages/AllProjects'
+
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import './App.css';
@@ -16,14 +16,15 @@ function App() {
   return (
     <Router>
 <header>
-<Route exact path="/" component={Navbar} />
-<Hero />
+<Route exact path="" component={Navbar} />
+
 </header>
 
 <main>
-<Skills />
-<Projects />
-<Testimonials />
+  <Switch>
+  <Route exact path="/" component={Home} />
+  <Route exact path="/portfolio" component={AllProjects} />
+  </Switch>
 </main>
 
 <footer>
