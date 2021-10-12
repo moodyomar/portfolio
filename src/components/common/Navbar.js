@@ -31,7 +31,7 @@ return(
 </nav>
 <div className="navSetting">
   <div onClick={themeSwitcher} className="themeSwitcher"><div className="theme-switch-wrapper">
-    <label className="theme-switch" for="checkbox">
+    <label className="theme-switch"       htmlFor="checkbox">
         <input type="checkbox" id="checkbox" />
         <div className="slider round"></div>
   </label>

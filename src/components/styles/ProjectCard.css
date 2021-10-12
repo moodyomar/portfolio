@@ -60,7 +60,6 @@ animation: alternate infinite .8s float;
   .ProjectCard{
     width: 400px;
     height: 340px;
-    background-color: red;
     }
     
     .ProjectCardInner{

@@ -1,13 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-const Para = ({ intro, title, h1, para, btnClass = 'btn', btn, icon = false,link=null }) => {
+const Para = ({ intro, title, h1, para, btnClass = 'btn', btn, icon = false,more='' }) => {
 
   return (
 
     <>
     
-{intro &&       <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+{intro &&       <p><i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 
 {intro}</p>}
       {title ?
@@ -15,8 +15,8 @@ const Para = ({ intro, title, h1, para, btnClass = 'btn', btn, icon = false,link
       <p className="para" data-aos="fade-up" data-aos-duration="2000">{para}</p>
       <div className={btnClass} data-aos="fade-up" data-aos-duration="2000">
         {icon &&
-      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>}
-        <Link to={{ pathname: `${link}` }} target="_blank">{btn}</Link></div>
+      <i className="fa fa-long-arrow-right" aria-hidden="true"></i>}
+        <Link to={{ pathname: `${more}` }} target="_blank">{btn}</Link></div>
     </>
 
   )
