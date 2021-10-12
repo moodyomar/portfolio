@@ -1,0 +1,48 @@
+[
+{
+    "intro":"Project 1",
+    "title":"DevMeet - Social Network For Developers (MERN)",
+    "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
+    "btnclass":"readMore",
+    "btn":"Read More",
+    "icon":true,
+    "pId":"p1",
+    "link":"madevmeet",
+    "more":"https://github.com/moodyomar/DevMeet"
+  },
+{
+    "intro":"Project 2",
+    "title":"PetMe - Dog Adoption Association (MEAN)",
+    "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
+    "btnclass":"readMore",
+    "btn":"Read More",
+    "icon":true,
+    "flip":true,
+    "pId":"p2",
+    "link":"mapetme",
+    "more":"https://github.com/moodyomar/PetMe-Client"
+  },
+{
+    "intro":"Project 3",
+    "title":"BizUp - Business Meetups (MERN)",
+    "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
+    "btnclass":"readMore",
+    "btn":"Read More",
+    "icon":true,
+    "pId":"p3",
+    "link":"macard",
+    "more":"https://github.com/moodyomar/BizCards"
+  },
+{
+    "intro":"Project 4",
+    "title":"CRM - Company CRM (Angular & Firebase)",
+    "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
+    "btnclass":"readMore",
+    "btn":"Read More",
+    "icon":true,
+    "flip":true,
+    "pId":"p4",
+    "link":"macrm",
+    "more":"https://github.com/moodyomar/Crm"
+  }
+]

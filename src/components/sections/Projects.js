@@ -5,28 +5,24 @@ import '../styles/ProjectCard.css';
 import Project from '../common/Project';
 import Splitter from '../common/Splitter';
 
+import projects from '../../data/projects.json'
 
 
 const Projects = () => {
-
 
   return (
 
     <div className='Projects'>
 
-      <Project intro={' Project 1'} title={'DevMeet - Social Network For Developers (MERN)'} content={"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can."} btnClass={'readMore'} btn={'Read More'} icon={true} id={'p1'} link={'madevmeet'} />
-
-      <Splitter />
-
-      <Project intro={' Project 2'} title={'PetMe - Dog Adoption Association (MEAN)'} content={"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can."} btnClass={'readMore'} btn={'Read More'} icon={true} flip={true} id={'p2'} link={'mapetme'} />
-
-      <Splitter />
-
-      <Project intro={' Project 3'} title={'BizUp - Business Meetups (MERN)'} content={"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can."} btnClass={'readMore'} btn={'Read More'} icon={true} id={'p3'} link={'macard'} />
-
-      <Splitter />
-      
-      {/* <Project intro={' Project 4'} title={'CRM - Company CRM (Angular & Firebase)'} content={"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can."} btnClass={'readMore'} btn={'Read More'} flip={true} icon={true} id={'p4'} link={'macrm'} /> */}
+      {projects.slice(0,3).map(project => {
+  let {intro,title,content,btnclass,btn,icon,flip,pId,link,more} = project
+        return(
+          <>
+          <Project intro={intro} title={title} content={content} btnClass={btnclass} btn={btn} icon={icon} id={pId} flip={flip} link={link} more={more} />
+          <Splitter/>
+          </>
+        )
+      })}
 
 
       <div className="viewall" style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>

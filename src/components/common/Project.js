@@ -4,7 +4,7 @@ import ProjectCard from '../cards/ProjectCard';
 import Para from './Para';
 
 
-const Project = ({ intro, title, content, btnClass='', btn, icon, flip = false, id ,link='maportfolioo'}) => {
+const Project = ({ intro, title, content, btnClass='', btn, icon, flip = false, id ,link='maportfolioo',more}) => {
 
   return (
 
@@ -15,7 +15,8 @@ const Project = ({ intro, title, content, btnClass='', btn, icon, flip = false, 
           title={title}
           para={content}
           btnClass={btnClass}
-          btn={btn} icon={icon} />
+          btn={btn} icon={icon}
+          more={more} />
 
       </div>
       <Link to={{ pathname: `https://${link}.netlify.app` }} target="_blank" className={`left-col ${flip && 'flipToRight'}`}>
