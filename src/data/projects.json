@@ -33,16 +33,39 @@
     "link":"macard",
     "more":"https://github.com/moodyomar/BizCards"
   },
-{
-    "intro":"Project 4",
-    "title":"CRM - Company CRM (Angular & Firebase)",
-    "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
-    "btnclass":"readMore",
-    "btn":"Read More",
-    "icon":true,
-    "flip":true,
-    "pId":"p4",
-    "link":"macrm",
-    "more":"https://github.com/moodyomar/Crm"
-  }
+  {
+      "intro":"Project 4",
+      "title":"CRM - Company CRM (Angular & Firebase)",
+      "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
+      "btnclass":"readMore",
+      "btn":"Read More",
+      "icon":true,
+      "flip":true,
+      "pId":"p4",
+      "link":"macrm",
+      "more":"https://github.com/moodyomar/Crm"
+    },
+  {
+      "intro":"Project 5",
+      "title":"Portfolio - Front End website (React & CSS)",
+      "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
+      "btnclass":"readMore",
+      "btn":"Read More",
+      "icon":true,
+      "pId":"p5",
+      "link":"maportfolioo",
+      "more":"https://github.com/moodyomar/portfolio"
+    },
+    {
+        "intro":"Project 6",
+        "title":"Mardi Grass - Static Website (HTML/CSS/JS)",
+        "content":"This is actually my first website ever in code, and by that I mean from scartch as I did made websites before this but all of them were using websites builders, This was a static website during my studing and it purpse was to test our HTML/CSS and a little JS",
+        "btnclass":"readMore",
+        "btn":"Read More",
+        "icon":true,
+        "flip":true,
+        "pId":"p6",
+        "link":"mamardi",
+        "more":"https://github.com/moodyomar/Mardi"
+      }
 ]
