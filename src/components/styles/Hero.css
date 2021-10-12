@@ -40,7 +40,7 @@ h1 span {
   display: flex;
 }
 .person{
-  background-image: url('../../assets/personme.png');
+  background-image: url('../../assets/personme.webp');
   height: 700px;
   width: 500px;
   background-size: contain;
