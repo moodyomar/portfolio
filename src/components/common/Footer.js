@@ -29,8 +29,8 @@ return(
 
 const footer = {
   width:'100vw',
-  height:'200px',
-  padding:'10px 50px',
+  height:'250px',
+  padding:'25px 50px',
   gap:'20px',
   backgroundColor:'#25262a',
   alignItems:'center',

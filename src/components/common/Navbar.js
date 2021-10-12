@@ -9,7 +9,11 @@ import '../styles/Navbar.css';
 
 const Navbar = () => { 
 
-
+const scrollTo = (id) => {
+  let scrollToId = document.querySelector(`#${id}`);
+  let y = scrollToId.offsetTop - scrollToId.offsetHeight;
+  window.scrollTo({top:y,behavior: 'smooth'})
+}
 
 return(
 
@@ -22,7 +26,7 @@ return(
   <li className="underline home"><Link to="/">
     <AiFillHome /> Home</Link></li>
   <li className="underline"><Link to="/portfolio"><AiFillLayout/> Portfolio</Link></li>
-  <li className="underline contact"><Link to="/contact"><AiFillPhone/> Contact</Link></li>
+  <li onClick={() => scrollTo('contact')} className="underline contact"><AiFillPhone/> Contact</li>
 </ul>
 </nav>
 <div className="navSetting">

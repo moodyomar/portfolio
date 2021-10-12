@@ -25,9 +25,9 @@ return(
 <Project title={"“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”"} content={"― Bernard M. Baruch"} id={'bernard'} />
 </div>
 
-<div className="contact" style={contactCard}>
+<div id="contact" className="contact" style={contactCard}>
   <h2>Lets Work Together</h2>
-  <p>I'm currently searching for a MERN / Front-end / Full Stack position, I'm Always open for contributions in open source projects or even build your own project from zero.</p>
+  <p>I'm currently searching for a MERN / Front-end / Full Stack position, Nevertheless I'm always open for contributions in open source projects or even build your own project from zero.</p>
   <button className="btn">Contact Me</button>
 </div>
 
