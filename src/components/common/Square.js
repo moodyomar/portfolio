@@ -12,10 +12,9 @@ return(
   alignItems: 'center',
   width:'300px',
   flexDirection: 'column',
-  backgroundColor:'#25262a',
   borderRadius:`${brT}px ${brR}px ${brB}px ${brL}px`
 }} data-aos={`fade-${dir}`} data-aos-duration="1000">
-<h1 style={{color:'#64f4ab'}}>{num}</h1>
+<h1>{num}</h1>
 <p>{text}</p>
 </div>
 

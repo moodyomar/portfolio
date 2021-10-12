@@ -1,11 +1,5 @@
 .Navbar{
-display: flex;
-width: 100vw;
-height: 100px;
 background-color: var(--color-tiles-bg);
-padding: 25px;
-align-items: center;
-padding-left: 40px;
 }
 .logo{
 flex:1;
@@ -34,7 +28,9 @@ nav ul li a:hover{
   color:var(--color-text-primary);
   transition: .25s all linear;
 }
-
+.contact{
+  cursor: pointer;
+}
 .underline::after{
   content:"";
   width: 0%;
@@ -50,13 +46,11 @@ height: 3px;
 background-color: var(--color-text-primary);
 transition: .25s all linear;
 }
-.underline.home:hover::after{
-width: 70px;
+.underline.home:hover::after,
+.underline.contact:hover::after
+{
+width: 75px;
 }
-.underline.contact:hover::after{
-width: 88px;
-}
-
 
 .navSetting{
   display: flex;
@@ -74,7 +68,6 @@ margin-right: 25px;
   align-items: center;
 }
 .theme-switch {
-  display: inline-block;
   height: 24px;
   position: relative;
   width: 50px;
@@ -86,7 +79,6 @@ margin-right: 25px;
   transition: ease-in .25s;
   transform: scale(1.1);
   background-image: linear-gradient(91deg,var(--color-text-orange1) 0%,var(--color-text-orange2) 100%);
-
 }
 .slider {
   transition: ease-out .2s;

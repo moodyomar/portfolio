@@ -21,8 +21,8 @@ return(
   dir={'left'} />
 </div>
 
-<div className="qoutes" style={{padding:'0px 100px'}}>
-<Project title={"“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”"} content={"― Bernard M. Baruch"} id={'bernard'} />
+<div className="qoutes" style={{padding:'0px 150px'}}>
+<Project title={"“Imagination is the beginning of creation. You imagine what you desire, you will what you imagine, and at last, you create what you will.”"} content={"― George Bernard Shaw"} id={'bernard'} />
 </div>
 
 <div id="contact" className="contact" style={contactCard}>

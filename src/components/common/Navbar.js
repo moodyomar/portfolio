@@ -17,7 +17,7 @@ const scrollTo = (id) => {
 
 return(
 
-<div className='Navbar'>
+<div style={nav} className='Navbar'>
 <div className="logo"  data-aos="fade-right" data-aos-duration="600">
   <h2><img alt="Logo" /></h2>
 </div>
@@ -26,7 +26,7 @@ return(
   <li className="underline home"><Link to="/">
     <AiFillHome /> Home</Link></li>
   <li className="underline"><Link to="/portfolio"><AiFillLayout/> Portfolio</Link></li>
-  <li onClick={() => scrollTo('contact')} className="underline contact"><AiFillPhone/> Contact</li>
+  <li onClick={() => scrollTo('contact')} className="underline contact"><AiFillPhone /> Contact</li>
 </ul>
 </nav>
 <div className="navSetting">
@@ -44,6 +44,15 @@ return(
 </div>
 
 )
+}
+
+const nav = {
+display: 'flex',
+width: '100vw',
+height: '100px',
+padding: '25px',
+alignItems: 'center',
+paddingLeft: '40px',
 }
 
 export default Navbar

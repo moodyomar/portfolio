@@ -1,5 +1,6 @@
 .socialIcon{
   margin-right: 5px;
+  color:var(--color-text-secondary);
 }
 .socialIcon:hover{
   transition: .3s;
@@ -9,6 +10,7 @@
 .Footer{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  background-color: var(--color-tiles-bg);
 }
 a{
   color: #fff;

@@ -16,8 +16,11 @@ display: block;
 margin-bottom: 5px;
 background-color: #327a56;
 }
-.contact{
+#square,.contact{
   background-color: var(--color-tiles-bg);
+}
+#square h1{
+  color: var(--color-bright-green);
 }
 .contact p {
 width: 40vw;

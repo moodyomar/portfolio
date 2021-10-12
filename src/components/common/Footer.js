@@ -32,7 +32,6 @@ const footer = {
   height:'250px',
   padding:'25px 50px',
   gap:'20px',
-  backgroundColor:'#25262a',
   alignItems:'center',
   socialFooter:{
     flex:'2',

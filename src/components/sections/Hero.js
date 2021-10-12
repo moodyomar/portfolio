@@ -29,7 +29,7 @@ const Hero = () => {
           para={"I’m a creative Web Developer with a great experience in design and some experience in the e-commerce world with a deep passion for ‏everything related to computers and tech since forever."}
           btnClass={'btn'}
           btn={'Contact Me'} 
-          link={'mailto:contact@devmoody.com'}/>
+          more={'mailto:contact@devmoody.com'}/>
       </div>
       <div className="right-col">
         <div className="ring"></div>
