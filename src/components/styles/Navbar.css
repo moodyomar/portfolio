@@ -4,11 +4,12 @@ background-color: var(--color-tiles-bg);
 .logo{
 flex:1;
 }
-
+.active{
+  color: var(--color-text-orange2);
+}
 .logo img{
   content: var(--logo);
 }
-
 nav {
   margin-left: 50px;
 list-style-type: none;

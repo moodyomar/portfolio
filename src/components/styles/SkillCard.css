@@ -3,8 +3,8 @@ background-color: var(--color-tiles-bg);
 }
 .SkillCard:hover{
   background-image: linear-gradient(var(--color-bright-green),var(--color-dark-green));
-  box-shadow: 6px 9px 35px 4px #64f4ac70;
-  transform: scale(1.01);
+  box-shadow: 6px 9px 35px 2px #64f4ac70 !important;
+  transform: scale(1.01) !important;
   transition: all .3s ease-in !important;
 }
 .SkillCard:hover .skillIcon{

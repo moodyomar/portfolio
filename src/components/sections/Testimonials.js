@@ -46,14 +46,14 @@ const bar = {
 const contactCard = {
   textAlign:'center',
   width: '65vw',
-  height: '300px',
+  height: '350px',
   display: 'flex',
   flexDirection: 'column',
   justifContent:' center',
   alignItems: 'center',
   margin: '50px 0px',
-  gap:'30px',
-  padding: '40px',
+  gap:'40px',
+  padding: '45px',
 borderRadius: '50px',
 }
 export default Testimonials
