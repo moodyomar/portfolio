@@ -59,7 +59,7 @@
       "pId":"p5",
       "link":"maportfolioo",
       "more":"https://github.com/moodyomar/portfolio",
-      "cat":"FrontEnd"
+      "cat":"Front End"
     },
     {
         "intro":"Project 6",
@@ -72,6 +72,6 @@
         "pId":"p6",
         "link":"mamardi",
         "more":"https://github.com/moodyomar/Mardi",
-        "cat":"FrontEnd"
+        "cat":"Front End"
       }
 ]

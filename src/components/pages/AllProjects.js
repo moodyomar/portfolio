@@ -11,8 +11,10 @@ const AllProjects = () => {
 
 let all = [...new Set(projects.map(project => project.cat))];
 let [category,setCategory] = useState('')
-console.log(all);
 
+const onCategoryChange = (cat) => {
+  setCategory(cat)
+}
 
 return(
 
@@ -25,7 +27,7 @@ return(
 <div style={filterProjects} >
   <div style={filterProjects.bar} className="bar" >
   {all.map(cat => (
-    <div onClick={() => setCategory(cat)} style={filterProjects.cat} className={`cat`} >{cat}</div>
+    <div onClick={() => onCategoryChange(cat)} style={filterProjects.cat} className={`cat ${category === cat && cat}`} >{cat}</div>
   ))}
   </div>
 </div>
