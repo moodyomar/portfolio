@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { NavLink, useHistory } from 'react-router-dom';
-import { AiFillHome, AiOutlineMenu, AiFillPhone, AiFillLayout } from 'react-icons/ai';
+import { AiFillHome, AiOutlineMenu, AiFillPhone, AiFillLayout,AiOutlineArrowUp } from 'react-icons/ai';
 import themeSwitcher from '../../utils/themeSwitcher';
 
 
@@ -32,7 +32,9 @@ const Navbar = ({ location }) => {
   return (
 
     <div style={nav} className='Navbar'>
-      <div className="logo" data-aos="fade-right" data-aos-duration="600">
+      <div className="scrollUp" style={nav.scrollUp}
+      onClick={() => scrollTo('logo')}><AiOutlineArrowUp size={25} /></div>
+      <div className="logo" id="logo" data-aos="fade-right" data-aos-duration="600">
         <NavLink to="/"><h2><img alt="Logo" /></h2></NavLink>
       </div>
       <nav>
@@ -71,6 +73,20 @@ const nav = {
   padding: '25px',
   alignItems: 'center',
   paddingLeft: '40px',
+  scrollUp:{
+    display:'grid',
+    placeItems:'center',
+    width:'40px',
+    height:'40px',
+    borderRadius:'50%',
+    position:'fixed',
+    bottom:'15px',
+    right:'15px',
+    opacity: '0.4',
+  transition: '.25s ease-out',
+  zIndex: '1000',
+  cursor:'pointer',
+  }
 }
 
 export default Navbar
