@@ -13,7 +13,9 @@ let all = [...new Set(projects.map(project => project.cat))];
 let [category,setCategory] = useState('')
 
 const onCategoryChange = (cat) => {
+  console.log('cat => ',cat,'category => ',category);
   setCategory(cat)
+  console.log('cat => ',cat,'category => ',category);
 }
 
 return(
@@ -27,7 +29,7 @@ return(
 <div style={filterProjects} >
   <div style={filterProjects.bar} className="bar" >
   {all.map(cat => (
-    <div onClick={() => onCategoryChange(cat)} style={filterProjects.cat} className={`cat ${category === cat && cat}`} >{cat}</div>
+    <div key={cat} onClick={() => onCategoryChange(cat)} style={filterProjects.cat} className={`cat ${category === cat && cat}`} >{cat}</div>
   ))}
   </div>
 </div>
@@ -35,7 +37,6 @@ return(
       {projects
       .filter(project => !category ? projects : project.cat === category)
       .map(project => {
-        {
           let {intro,title,content,btnclass,btn,icon,flip,pId,link,more} = project
                 return(
                   <div key={pId}>
@@ -43,7 +44,6 @@ return(
                   <Splitter />
                   </div>
                 )
-              }
       })}
 </div>
 

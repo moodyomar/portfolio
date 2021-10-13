@@ -6,7 +6,7 @@ background-color: var(--color-tiles-bg);
   transform: scale(1.1);
   transition: .3s all;
 }
-.MERN,.MEAN,.Front{
+.MERN,.MEAN,.Front,.Wordpress{
   color: var(--color-text-orange2);
 }
 @media screen and (max-width: 600px) {

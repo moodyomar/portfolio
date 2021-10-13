@@ -19,9 +19,11 @@ const Project = ({ intro, title, content, btnClass='', btn, icon, flip = false, 
           more={more} />
 
       </div>
-      <Link to={{ pathname: `https://${link}.netlify.app` }} target="_blank" className={`left-col ${flip && 'flipToRight'}`}>
+
+      <Link to={{ pathname: link }} target="_blank" className={`left-col ${flip && 'flipToRight'}`}>
         <ProjectCard id={id} />
       </Link>
+
     </div>
 
   )

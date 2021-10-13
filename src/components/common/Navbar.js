@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { NavLink, useHistory } from 'react-router-dom';
-import { AiFillHome, AiOutlineMenu, AiFillPhone, AiFillLayout, AiOutlineWhatsApp } from 'react-icons/ai';
+import { AiFillHome, AiOutlineMenu, AiFillPhone, AiFillLayout } from 'react-icons/ai';
 import themeSwitcher from '../../utils/themeSwitcher';
 
 
