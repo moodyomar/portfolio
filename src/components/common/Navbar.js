@@ -14,7 +14,7 @@ const Navbar = ({ location }) => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    toggleMobileMenu(!mobileMenu);
+    toggleMobileMenu(false);
   }, [location.pathname])
 
   const scrollTo = (id) => {
@@ -40,7 +40,7 @@ const Navbar = ({ location }) => {
         <NavLink to="/"><h2><img alt="Logo" /></h2></NavLink>
       </div>
       <nav>
-        <ul className={`${!mobileMenu && 'toggleMobileMenu'}`}>
+        <ul className={`${mobileMenu && 'toggleMobileMenu'}`}>
           <li className="underline home">
             <NavLink exact to="/" activeClassName="active"><AiFillHome /> Home</NavLink></li>
           <li className="underline">
