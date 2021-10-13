@@ -131,12 +131,13 @@ ul{
    inset: 0;
    top: 100px;
    align-items: center;
-   z-index: 100;
+   z-index: -10;
    opacity: 0;
    transition: .25s ease-out;
   }
 .toggleMobileMenu{
 transition: .3s ease-in;
+z-index: 100;
 opacity: 1;
   }
   nav ul li {
