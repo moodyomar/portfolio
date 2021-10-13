@@ -140,7 +140,16 @@ top: 100px;
   top: 350px;
   }
 }
-
+@media screen and (max-width: 1350px) and (min-width: 1150.5px) {
+  .ring{
+    width: 470px;
+    height: 470px;
+  }
+  .person{
+    height: 510px;
+    width: 360px;
+  }
+}
 @media screen and (max-width: 1150px) and (min-width: 820.5px) {
 
 .ring{

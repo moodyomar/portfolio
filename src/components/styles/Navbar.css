@@ -71,6 +71,7 @@ width: 75px;
 }
 .themeSwitcher{
 margin-right: 25px;
+z-index: 100;
 }
 
 /* toggle switch */
