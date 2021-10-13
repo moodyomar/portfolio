@@ -124,11 +124,34 @@ input:checked + .slider:before {
   }
 
 @media screen and (max-width: 950px) {
- nav{
-   display: none;
+ul{
+   background-color: rgba(0, 0, 0, 0.9);
+   flex-direction: column;
+   position: absolute;
+   inset: 0;
+   top: 100px;
+   align-items: center;
+   z-index: 100;
+   opacity: 0;
+   transition: .25s ease-out;
+  }
+.toggleMobileMenu{
+transition: .3s ease-in;
+opacity: 1;
+  }
+  nav ul li {
+    margin: 50px;
+  }
+li.underline{
+  margin: 50px;
+}
+ nav ul li a,.contact{
+   margin-right: 0px;
+   font-size: 22px;
  }
  .burgerMenu{
   display: block;
   margin-right: 10px;
+  cursor: pointer;
   }
 }

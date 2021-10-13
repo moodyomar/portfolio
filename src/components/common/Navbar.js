@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink, useHistory } from 'react-router-dom';
 import { AiFillHome, AiOutlineMenu, AiFillPhone, AiFillLayout,AiOutlineArrowUp } from 'react-icons/ai';
 import themeSwitcher from '../../utils/themeSwitcher';
@@ -10,9 +10,11 @@ import '../styles/Navbar.css';
 const Navbar = ({ location }) => {
 
   const history = useHistory();
+  let [mobileMenu,toggleMobileMenu] = useState(false)
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    toggleMobileMenu(!mobileMenu);
   }, [location.pathname])
 
   const scrollTo = (id) => {
@@ -38,7 +40,7 @@ const Navbar = ({ location }) => {
         <NavLink to="/"><h2><img alt="Logo" /></h2></NavLink>
       </div>
       <nav>
-        <ul>
+        <ul className={`${mobileMenu && 'toggleMobileMenu'}`}>
           <li className="underline home">
             <NavLink exact to="/" activeClassName="active"><AiFillHome /> Home</NavLink></li>
           <li className="underline">
@@ -54,7 +56,8 @@ const Navbar = ({ location }) => {
           </label>
         </div>
         </div>
-        <AiOutlineMenu size={25} className="burgerMenu" />
+        <AiOutlineMenu onClick={() => toggleMobileMenu(!mobileMenu)} size={25} 
+        className='burgerMenu' />
         <NavLink style={{ textDecoration: 'none' }}
           to={{ pathname: `https://wa.link/u8q8zv` }} target="_blank">
           <div className="btn hide-m"

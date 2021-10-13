@@ -16,7 +16,7 @@ display: block;
 margin-bottom: 5px;
 background-color: #327a56;
 }
-#square,.contact{
+#square,.Testimonials .contact{
   background-color: var(--color-tiles-bg);
 }
 #square h1{
