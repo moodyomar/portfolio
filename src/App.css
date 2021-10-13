@@ -47,6 +47,9 @@ body{
   font-family: var(--primary-font-family);
   overflow-x: hidden;
 }
+.container{
+  padding: 50px 100px;
+}
 /* Buttons Start */
 .btn,.btn a{
   text-decoration: none;

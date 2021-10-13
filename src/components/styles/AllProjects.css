@@ -1,0 +1,20 @@
+.bar{
+background-color: var(--color-tiles-bg);
+}
+.cat:hover{
+  color: var(--color-text-orange2);
+  transform: scale(1.05);
+  transition: .3s all;
+}
+.MERN{
+  color: var(--color-text-orange2);
+}
+@media screen and (max-width: 600px) {
+.cat{
+  padding: 7px;
+  font-size: 14px;
+}
+.bar{
+  width: 85vw !important;
+}
+}

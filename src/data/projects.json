@@ -8,7 +8,8 @@
     "icon":true,
     "pId":"p1",
     "link":"madevmeet",
-    "more":"https://github.com/moodyomar/DevMeet"
+    "more":"https://github.com/moodyomar/DevMeet",
+    "cat":"MERN"
   },
 {
     "intro":"Project 2",
@@ -20,7 +21,8 @@
     "flip":true,
     "pId":"p2",
     "link":"mapetme",
-    "more":"https://github.com/moodyomar/PetMe-Client"
+    "more":"https://github.com/moodyomar/PetMe-Client",
+    "cat":"MEAN"
   },
 {
     "intro":"Project 3",
@@ -31,7 +33,8 @@
     "icon":true,
     "pId":"p3",
     "link":"macard",
-    "more":"https://github.com/moodyomar/BizCards"
+    "more":"https://github.com/moodyomar/BizCards",
+    "cat":"MERN"
   },
   {
       "intro":"Project 4",
@@ -43,7 +46,8 @@
       "flip":true,
       "pId":"p4",
       "link":"macrm",
-      "more":"https://github.com/moodyomar/Crm"
+      "more":"https://github.com/moodyomar/Crm",
+      "cat":"MEAN"
     },
   {
       "intro":"Project 5",
@@ -54,7 +58,8 @@
       "icon":true,
       "pId":"p5",
       "link":"maportfolioo",
-      "more":"https://github.com/moodyomar/portfolio"
+      "more":"https://github.com/moodyomar/portfolio",
+      "cat":"FrontEnd"
     },
     {
         "intro":"Project 6",
@@ -66,6 +71,7 @@
         "flip":true,
         "pId":"p6",
         "link":"mamardi",
-        "more":"https://github.com/moodyomar/Mardi"
+        "more":"https://github.com/moodyomar/Mardi",
+        "cat":"FrontEnd"
       }
 ]

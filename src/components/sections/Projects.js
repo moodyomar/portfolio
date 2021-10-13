@@ -1,10 +1,9 @@
 import React from 'react';
-
-import '../styles/Projects.css';
-import '../styles/ProjectCard.css';
+import {Link} from "react-router-dom";
 import Project from '../common/Project';
 import Splitter from '../common/Splitter';
-
+import '../styles/Projects.css';
+import '../styles/ProjectCard.css';
 import projects from '../../data/projects.json'
 
 
@@ -26,7 +25,7 @@ const Projects = () => {
 
 
       <div className="viewall" style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
-        <button id="vAll" style={vAllBtn}>View All</button>
+       <Link to="/portfolio"><button id="vAll" style={vAllBtn}>View All</button></Link>
       </div>
 
     </div>

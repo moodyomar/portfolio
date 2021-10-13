@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link,useHistory } from 'react-router-dom';
 import { AiFillHome, AiOutlineMenu,AiFillPhone,AiFillLayout  } from 'react-icons/ai';
 import themeSwitcher from '../../utils/themeSwitcher';
@@ -10,6 +10,10 @@ import '../styles/Navbar.css';
 const Navbar = ({location}) => { 
 
 const history = useHistory();
+
+  useEffect(() => {
+  window.scrollTo(0,0)
+},[location.pathname])
 
 const scrollTo = (id) => {
 
@@ -29,7 +33,7 @@ return(
 
 <div style={nav} className='Navbar'>
 <div className="logo"  data-aos="fade-right" data-aos-duration="600">
-  <h2><img alt="Logo" /></h2>
+  <Link to="/"><h2><img alt="Logo" /></h2></Link>
 </div>
 <nav>
 <ul>
