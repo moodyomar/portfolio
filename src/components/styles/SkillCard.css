@@ -24,7 +24,25 @@ background-color: var(--color-icons-bg);
 letter-spacing: 2px;
 text-align: center;
 }
-
+@media only screen and (max-width: 970px) and (min-width: 820.5px)  {
+  .SkillCard{
+    width: 180px !important;
+    height: 180px !important;
+  }
+  .skillIcon{
+  width: 45px !important;
+  height: 45px !important;
+    }
+    .skillTitle{
+      font-size: 0.7rem !important;
+      font-weight: 500;
+    }
+    .skillDesc{
+    letter-spacing: 1.4px;
+    font-size: 0.5rem !important;
+    text-align: center;
+    }
+}
 @media only screen and (max-width: 1150px) and (min-width: 600.5px)  {
   .SkillCard{
     width: 210px;
