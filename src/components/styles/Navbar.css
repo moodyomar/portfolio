@@ -127,6 +127,7 @@ input:checked + .slider:before {
 ul{
    background-color: rgba(0, 0, 0, 0.9);
    flex-direction: column;
+   height: 200vh;
    position: absolute;
    inset: 0;
    top: 100px;
@@ -146,9 +147,11 @@ opacity: 1;
 li.underline{
   margin: 50px;
 }
- nav ul li a,.contact{
+ nav ul li a,li.contact{
+  font-size: 22px;
+ }
+ nav ul li a{
    margin-right: 0px;
-   font-size: 22px;
  }
  .burgerMenu{
   display: block;
