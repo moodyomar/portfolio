@@ -1,3 +1,7 @@
+.Projects .titleWraper{
+margin: 50px auto;
+text-align: center;
+}
 .bar{
 background-color: var(--color-tiles-bg);
 }

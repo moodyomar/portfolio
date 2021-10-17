@@ -22,7 +22,7 @@ return(
 
 <div className='Projects'>
 
-<div className="container">
+<div className="titleWraper">
 <Para title={'All Projects'} btnClass={''} para={'All Projects have their open source on github which can be simply review when clicking read more on each project.'} />
 </div>
 
