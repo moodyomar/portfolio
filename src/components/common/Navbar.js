@@ -62,7 +62,7 @@ const Navbar = ({ location }) => {
           to={{ pathname: `https://wa.link/u8q8zv` }} target="_blank">
           <div className="btn hide-m"
             data-aos="fade-left" data-aos-duration="2000"
-          >Message Me</div></NavLink>
+          >Say Hello</div></NavLink>
       </div>
     </div>
 
