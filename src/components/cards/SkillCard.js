@@ -28,8 +28,8 @@ boxShadow: '1px 1px 10px 1px rgba(0,0,0,0.20)',
 }
 const sIcon = {
   borderRadius: '50%',
-  width: '100px',
-  height: '100px',
+  width: '80px',
+  height: '80px',
   display: 'grid',
   placeItems: 'center',
   transition: 'all .3s ease',

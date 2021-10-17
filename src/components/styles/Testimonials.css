@@ -35,6 +35,9 @@ width: 400px;
 display: grid;
 place-items: center;
 }
+#contact *{
+margin-bottom: 40px;
+}
 @media only screen and (max-width: 1250px) and (min-width: 820.5px)  {
   #square{
     width: 190px !important;

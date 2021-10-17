@@ -61,7 +61,7 @@ body{
   width: 180px;
   display: grid;
   place-items: center;
-  color: var(--color-tiles-bg);
+  color: #25262a;
   cursor: pointer;
   font-size: 18px;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.20);

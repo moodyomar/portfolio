@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink, useHistory } from 'react-router-dom';
 import { AiFillHome, AiOutlineMenu, AiFillPhone, AiFillLayout,AiOutlineArrowUp } from 'react-icons/ai';
+import { FaWhatsapp } from 'react-icons/fa';
 import themeSwitcher from '../../utils/themeSwitcher';
 
 
@@ -60,9 +61,9 @@ const Navbar = ({ location }) => {
         className='burgerMenu' />
         <NavLink style={{ textDecoration: 'none' }}
           to={{ pathname: `https://wa.link/u8q8zv` }} target="_blank">
-          <div className="btn hide-m"
+          <div style={{display:'flex',justifyContent:'center'}} className="btn hide-m"
             data-aos="fade-left" data-aos-duration="2000"
-          >Say Hello</div></NavLink>
+          ><FaWhatsapp style={{marginRight:'5px'}} size={20}/>Say Hello</div></NavLink>
       </div>
     </div>
 

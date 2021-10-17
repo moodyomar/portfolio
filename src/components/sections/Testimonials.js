@@ -28,7 +28,7 @@ return(
 <div id="contact" className="contact" style={contactCard}>
   <h2>Lets Work Together</h2>
   <p>I'm currently searching for a MERN / Front-end / Full Stack position, Nevertheless I'm always open for contributions in open source projects or even build your own project from zero.</p>
-  <button className="btn">Contact Me</button>
+  <button className="btn"><a href="mailto:contact@devmoody.com">Contact Me</a></button>
 </div>
 
 </div>
@@ -52,7 +52,6 @@ const contactCard = {
   justifContent:' center',
   alignItems: 'center',
   margin: '50px 0px',
-  gap:'40px',
   padding: '45px',
 borderRadius: '50px',
 }

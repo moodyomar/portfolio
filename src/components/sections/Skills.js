@@ -3,8 +3,10 @@ import React from 'react';
 
 import SkillCard from '../cards/SkillCard';
 import skills from '../../data/skills.json';
-import '../styles/Skills.css';
 import Para from '../common/Para';
+
+import cv from '../../assets/CV-en-Moody.pdf'
+import '../styles/Skills.css';
 
 
 const Skills = () => {
@@ -18,7 +20,7 @@ const Skills = () => {
           title={'Why Hire Me For Next Project?'}
           para={"Lots of motivation, Consistency, Positive energy and responsibility with great passion. I'm definitely a team player, Very eager to learn new technologies and always strives beyond the sky. Experience working with Wordpress, owner of an active e-commerce store and a small Branding Agency offering business promotions as a side hustle."}
           btn={'Download CV'}
-          more={'https://github.com/moodyomar/resume/blob/main/CV-en-Moody.pdf'} />
+          more={cv} />
 
       </div>
       <div className="left-col">
