@@ -110,7 +110,7 @@ cursor: pointer;
 
 @media screen and (max-width: 650px) {
   .hide-m{
-    display: none;
+    display: none !important;
   }
   h2{
     font-size: 5vw;
