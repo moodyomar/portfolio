@@ -5,7 +5,7 @@ import SkillCard from '../cards/SkillCard';
 import skills from '../../data/skills.json';
 import Para from '../common/Para';
 
-import cv from '../../assets/CV-en-Moody.pdf'
+import cv from '../../assets/cv-en-moody.pdf'
 import '../styles/Skills.css';
 
 
