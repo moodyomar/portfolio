@@ -1,6 +1,6 @@
 [
 {
-    "intro":"Project 1",
+    "intro":"Project 11",
     "title":"DevMeet - Social Network For Developers (MERN)",
     "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
     "btnclass":"readMore",
@@ -12,7 +12,7 @@
     "cat":"MERN"
   },
 {
-    "intro":"Project 2",
+    "intro":"Project 10",
     "title":"PetMe - Dog Adoption Association (MEAN)",
     "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
     "btnclass":"readMore",
@@ -25,7 +25,7 @@
     "cat":"MEAN"
   },
 {
-    "intro":"Project 3",
+    "intro":"Project 9",
     "title":"BizUp - Business Meetups (MERN)",
     "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
     "btnclass":"readMore",
@@ -37,7 +37,7 @@
     "cat":"MERN"
   },
   {
-      "intro":"Project 4",
+      "intro":"Project 8",
       "title":"CRM - Company CRM (Angular & Firebase)",
       "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
       "btnclass":"readMore",
@@ -50,7 +50,7 @@
       "cat":"MEAN"
     },
   {
-      "intro":"Project 5",
+      "intro":"Project 12",
       "title":"Portfolio - Front End website (React & CSS)",
       "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
       "btnclass":"readMore",
@@ -62,7 +62,7 @@
       "cat":"Front End"
     },
     {
-        "intro":"Project 6",
+        "intro":"Project 5",
         "title":"Mardi Grass - Static Website (HTML/CSS/JS)",
         "content":"This is actually my first website ever in code, and by that I mean from scartch as I did made websites before this but all of them were using websites builders, This was a static website during my studing and it purpse was to test our HTML/CSS and a little JS",
         "btnclass":"readMore",
@@ -75,19 +75,19 @@
         "cat":"Front End"
       },
       {
-        "intro":"Project 7",
+        "intro":"Project 1",
         "title":"Smartechs - Gadgets E-commerce Shop",
         "content":"Smart Techs is ​​a digital gadgets store built in Wordpress and woocoomerce that supplies all sorts of brilliant products and accessories for all kinds of uses",
         "btnclass":"readMore",
         "btn":"Read More",
         "icon":true,
         "pId":"p7",
-        "link":"",
+        "link":"https://www.smartechs.shop",
         "more":"https://www.smartechs.shop/",
         "cat":"Wordpress"
       },
       {
-        "intro":"Project 8",
+        "intro":"Project 3",
         "title":"QNWMedia - Branding Agency",
         "content":"QNW is a service company to financial organizations specializing in Online Marketing. The company was founded in 2020 and since than developed variety of applications, tools and websites.",
         "btnclass":"readMore",
@@ -100,19 +100,19 @@
         "cat":"Wordpress"
       },
       {
-        "intro":"Project 9",
+        "intro":"Project 6",
         "title":"PatronLTD - Construction Company",
         "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
         "btnclass":"readMore",
         "btn":"Read More",
         "icon":true,
         "pId":"p9",
-        "link":"",
+        "link":"https://patronltd.com",
         "more":"https://patronltd.com",
         "cat":"Wordpress"
       },
       {
-        "intro":"Project 10",
+        "intro":"Project 7",
         "title":"Pretty Dina - Clothing & Fashion Shop",
         "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
         "btnclass":"readMore",
@@ -120,24 +120,24 @@
         "icon":true,
         "flip":true,
         "pId":"p10",
-        "link":"",
+        "link":"https://prettydina.com",
         "more":"https://prettydina.com",
         "cat":"Wordpress"
       },
       {
-        "intro":"Project 11",
+        "intro":"Project 4",
         "title":"Aragil Amer - Hookahs Online Shop",
         "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
         "btnclass":"readMore",
         "btn":"Read More",
         "icon":true,
         "pId":"p11",
-        "link":"",
+        "link":"https://aragilamer.com",
         "more":"https://aragilamer.com",
         "cat":"Wordpress"
       },
       {
-        "intro":"Project 12",
+        "intro":"Project 2",
         "title":"Fiad Eruim - Wedding Planner ",
         "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
         "btnclass":"readMore",
@@ -145,7 +145,7 @@
         "icon":true,
         "flip":true,
         "pId":"p12",
-        "link":"",
+        "link":"https://fiad-eruim.co.il",
         "more":"https://fiad-eruim.co.il",
         "cat":"Wordpress"
       }

@@ -13,6 +13,10 @@ background-color: var(--color-tiles-bg);
 .MERN,.MEAN,.Front,.Wordpress{
   color: var(--color-text-orange2);
 }
+.x{
+  width: 90px !important;
+  height: 30px !important;
+}
 @media screen and (max-width: 600px) {
 .cat{
   padding: 7px;
