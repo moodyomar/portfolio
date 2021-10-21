@@ -27,7 +27,7 @@ const Navbar = ({ location }) => {
 
     let scrollToId = document.querySelector(`#${id}`);
     let y = scrollToId.offsetTop - scrollToId.offsetHeight;
-    window.scrollTo({ top: y, behavior: 'smooth' })
+    window.scrollTo({ top: y})
 
   }
 
@@ -36,7 +36,7 @@ const Navbar = ({ location }) => {
 
     <div style={nav} className='Navbar'>
       <div className="scrollUp" style={nav.scrollUp}
-      onClick={() => scrollTo('logo')}><AiOutlineArrowUp size={25} /></div>
+      onClick={() => window.scrollTo(0,0)}><AiOutlineArrowUp size={25} /></div>
       <div className="logo" id="logo" data-aos="fade-right" data-aos-duration="600">
         <NavLink to="/"><h2><img alt="Logo" /></h2></NavLink>
       </div>
