@@ -43,8 +43,8 @@ return(
 
 <div style={sort} >
 <div style={{display:'flex',gap:'5px'}}>
-<button  className="btn x" onClick={() => setSorting({a:1,b:-1})}>Newest</button>
-  <button className="btn x" onClick={() => setSorting({a:-1,b:1})}>Oldest</button>
+<button  className={`btn x s${sorting.a}`} onClick={() => setSorting({a:1,b:-1})}>Newest</button>
+  <button className={`btn x s${sorting.b}`} onClick={() => setSorting({a:-1,b:1})}>Oldest</button>
 </div>
 </div>
 

@@ -17,6 +17,11 @@ background-color: var(--color-tiles-bg);
   width: 90px !important;
   height: 30px !important;
 }
+.s-1{
+  opacity: 0.5;
+  transition: all .3s;
+  transform: scale(0.9);
+}
 @media screen and (max-width: 600px) {
 .cat{
   padding: 7px;
