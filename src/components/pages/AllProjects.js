@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Project from '../common/Project';
 import Splitter from '../common/Splitter';
-import { FaBeer } from 'react-icons/fa';
 import projects from '../../data/projects.json'
 import Para from '../common/Para';
 import '../styles/AllProjects.css';

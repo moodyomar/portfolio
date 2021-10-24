@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink, useHistory } from 'react-router-dom';
 import { AiFillHome, AiOutlineMenu, AiFillPhone, AiFillLayout,AiOutlineArrowUp } from 'react-icons/ai';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp,FaMoon,FaSun } from 'react-icons/fa';
 import themeSwitcher from '../../utils/themeSwitcher';
 
 
@@ -51,10 +51,12 @@ const Navbar = ({ location }) => {
       </nav>
       <div className="navSetting">
         <div onClick={themeSwitcher} className="themeSwitcher"><div className="theme-switch-wrapper">
+          <FaMoon/>
           <label className="theme-switch" htmlFor="checkbox">
             <input type="checkbox" id="checkbox" />
             <div className="slider round"></div>
           </label>
+            <FaSun/>
         </div>
         </div>
         <AiOutlineMenu onClick={() => toggleMobileMenu(!mobileMenu)} size={25} 

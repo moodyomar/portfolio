@@ -80,6 +80,7 @@ z-index: 100;
   align-items: center;
 }
 .theme-switch {
+  margin: 0 3px;
   height: 24px;
   position: relative;
   width: 50px;
@@ -149,6 +150,7 @@ li.underline{
 }
  nav ul li a,li.contact{
   font-size: 22px;
+  color: #fff;
  }
  nav ul li a{
    margin-right: 0px;
