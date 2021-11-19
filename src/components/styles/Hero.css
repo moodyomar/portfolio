@@ -169,7 +169,6 @@ top: 100px;
   }
 }
 
-/* fix about 200px that is not responsive  */
 @media only screen and (max-width: 820px) and (min-width: 600.5px)  {
   .icon{
     width: 50px;
