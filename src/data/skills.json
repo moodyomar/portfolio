@@ -20,7 +20,7 @@
   {
     "icon":"FaTools",
     "title":"Tools & Apps",
-    "desc":"Git and Github, MongoDB for managing databases & Adobe Photoshop, XD, Figma for design + hands on web builders like wordpress, elemntor, wix.",
+    "desc":"Git and Github, Docker, MongoDB for managing DBs & Adobe Photoshop, XD, Figma for design + hands on web builders like wordpress and elementor.",
     "animation":"right"
   }
 ]
