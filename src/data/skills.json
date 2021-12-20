@@ -2,13 +2,13 @@
   {
     "icon":"FaCode",
     "title":"Main Languages",
-    "desc":"HTML CSS and Javascript Front to back including ES6 syntax & REST api, npm, Typescript, with basic familiarity in jQuer, SASS and PHP.",
+    "desc":"HTML CSS and Javascript Front to back including ES6 syntax & REST api, npm, Typescript, with basic familiarity in jQuery, SASS and PHP.",
     "animation":"left"
   },
   {
     "icon":"FaReact",
     "title":"Frameworks",
-    "desc":"Hands on libraries and frameworks like React.js, Redux, Angular Bootstrap, and Node.js the Javascript Runtime Environment for the backend.",
+    "desc":"Hands on libraries and frameworks like React.js, Redux, Angular, Bootstrap, and Node.js the Javascript Runtime Environment for the backend.",
     "animation":"right"
   },
   {
@@ -20,7 +20,7 @@
   {
     "icon":"FaTools",
     "title":"Tools & Apps",
-    "desc":"Git and Github, Docker, MongoDB for managing DBs & Adobe Photoshop, XD, Figma for design + hands on web builders like wordpress and elementor.",
+    "desc":"Git and Github, Docker, MongoDB for managing DBs & Wordpress, Adobe Photoshop, XD, Figma + hands on web builders like Elementor.",
     "animation":"right"
   }
 ]
