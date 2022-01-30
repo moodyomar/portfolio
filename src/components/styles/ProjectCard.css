@@ -7,7 +7,6 @@ transform: rotate(-10deg);
 transition: .25s all;
 position: absolute;
 }
-
 .ProjectCardInner{
 width: 550px;
 height: 450px;
