@@ -1,5 +1,17 @@
 [
 {
+    "intro":"Project 14",
+    "title":"Simon Says Crypto - Cryptocurrency Learning Community (WP)", "content":"Educational platform community for the cryptocurrency industury, taught by an individual instructor offering an online course in cryptocurrency, users can register and login to buy the course and only then they can watch it.",
+    "btnclass":"readMore",
+    "btn":"Read More",
+    "icon":true,
+    "pId":"p14",
+    "flip":true,
+    "link":"https://simonsayscrypto.co.il",
+    "more":"https://simonsayscrypto.co.il",
+    "cat":"Wordpress"
+  },
+{
     "intro":"Project 13",
     "title":"Done Pro - Concrete Contractor Services (WP)",
     "content":"Done pro is Providing concrete sawing and drilling services through innovative technology and safety equipment for all types of buildings, opening doors, windows, enlarging openings, demolishing buildings and more.",
