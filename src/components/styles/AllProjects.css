@@ -22,6 +22,9 @@ background-color: var(--color-tiles-bg);
   transition: all .3s;
   transform: scale(0.9);
 }
+.right-col h2{
+  margin-bottom: 10px;
+}
 @media screen and (max-width: 600px) {
 .cat{
   padding: 7px;

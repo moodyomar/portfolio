@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import { getIcon } from '../../utils/iconsGetter';
 
-const Para = ({ intro, title, h1, para, btnClass = 'btn', btn, icon = false,more='' }) => {
+const Para = ({ intro, title,tools='', h1, para, btnClass = 'btn', btn, icon = false,more='' }) => {
 
   return (
 
@@ -12,6 +13,8 @@ const Para = ({ intro, title, h1, para, btnClass = 'btn', btn, icon = false,more
 {intro}</p>}
       {title ?
         <h2 data-aos="fade-up" data-aos-duration="1000">{title}</h2> : h1}
+        {tools.length !==0 ? tools.map(tool => 
+          <span key={tool} className='toolUsed' data-aos="fade-up" data-aos-duration="1000"> {getIcon(tool)} </span> ): ''}
       <p className="para" data-aos="fade-up" data-aos-duration="2000">{para}</p>
       <div className={btnClass} data-aos="fade-up" data-aos-duration="2000">
         {icon &&

@@ -14,10 +14,10 @@ const Projects = () => {
     <div className='Projects'>
 
       {projects.slice(0,4).filter(project => project.cat !== 'Wordpress').map(project => {
-  let {intro,title,content,btnclass,btn,icon,flip,pId,link,more} = project
+  let {intro,title,tools,content,btnclass,btn,icon,flip,pId,link,more} = project
         return(
           <div key={pId}>
-          <Project key={pId} intro={intro} title={title} content={content} btnClass={btnclass} btn={btn} icon={icon} id={pId} flip={flip} link={link} more={more} />
+          <Project key={pId} intro={intro} title={title} tools={tools} content={content} btnClass={btnclass} btn={btn} icon={icon} id={pId} flip={flip} link={link} more={more} />
           <Splitter/>
           </div>
         )

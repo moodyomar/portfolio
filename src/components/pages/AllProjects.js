@@ -22,7 +22,6 @@ const onCategoryChange = (cat) => {
 }
 
   useEffect(() => {
-    console.log(sorting);
 },[sorting])
 
 return(
@@ -52,10 +51,10 @@ return(
       .filter(project => !category ? projects : project.cat === category)
       .sort((a,b) => sortBy(a,b))
       .map(project => {
-          let {intro,title,content,btnclass,btn,icon,flip,pId,link,more} = project
+          let {intro,title,tools,content,btnclass,btn,icon,flip,pId,link,more} = project
                 return(
                   <div key={pId}>
-                  <Project intro={intro} title={title} content={content} btnClass={btnclass} btn={btn} icon={icon} id={pId} flip={flip} link={link} more={more} />
+                  <Project intro={intro} title={title} tools={tools} content={content} btnClass={btnclass} btn={btn} icon={icon} id={pId} flip={flip} link={link} more={more} />
                   <Splitter />
                   </div>
                 )

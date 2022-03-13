@@ -4,7 +4,7 @@ import ProjectCard from '../cards/ProjectCard';
 import Para from './Para';
 
 
-const Project = ({ intro, title, content, btnClass='', btn, icon, flip = false, id ,link='maportfolioo',more}) => {
+const Project = ({ intro, title,tools, content, btnClass='', btn, icon, flip = false, id ,link='maportfolioo',more}) => {
 
   return (
 
@@ -13,6 +13,7 @@ const Project = ({ intro, title, content, btnClass='', btn, icon, flip = false, 
         <Para
           intro={intro}
           title={title}
+          tools={tools}
           para={content}
           btnClass={btnClass}
           btn={btn} icon={icon}
