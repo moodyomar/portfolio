@@ -69,7 +69,7 @@
   },
   {
       "intro":"Project 8",
-      "title":"CRM - Company CRM (Angular & Firebase)",
+      "title":"CRM - Company CRM",
       "tools":["html","css","bs","js","ang","fb","njs"],
       "content":"This was my first project involving Angular and Firebase togather, It was a project during my studying at college as well which was give to us as an assignment which instructions and photos of how the UI should look like. I'v learned a lot about firebase as it was my first encounter with it in this project.",
       "btnclass":"readMore",
@@ -109,7 +109,8 @@
       },
       {
         "intro":"Project 1",
-        "title":"Smartechs - Gadgets E-commerce Shop (WP)",
+        "title":"Smartechs - Gadgets E-commerce Shop",
+        "tools":["wp","el","css"],        
         "content":"Smart Techs is ​​a digital gadgets store built in Wordpress and woocoomerce that supplies all sorts of brilliant products and accessories for all kinds of uses",
         "btnclass":"readMore",
         "btn":"Read More",
@@ -134,7 +135,8 @@
       },
       {
         "intro":"Project 6",
-        "title":"PatronLTD - Construction Company (WP)",
+        "title":"PatronLTD - Construction Company",
+        "tools":["wp","el","css"],
         "content":"A company that provides the customer with a wide range of solutions and services in the field of construction and transportation from a steel processing to a hardware store and more.",
         "btnclass":"readMore",
         "btn":"Read More",
@@ -174,7 +176,7 @@
       },
       {
         "intro":"Project 2",
-        "title":"Fiad Eruim - Wedding Planner (WP)",
+        "title":"Fiad Eruim - Wedding Planner",
         "tools":["wp","el","css"],
         "content":"The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.",
         "btnclass":"readMore",
