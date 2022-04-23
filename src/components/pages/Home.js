@@ -4,10 +4,7 @@ import Projects from '../sections/Projects'
 import Testimonials from '../sections/Testimonials'
 import Hero from '../sections/Hero'
 
-const Home = () => { 
-
-return(
-
+const Home = () => (
 <div className=''>
 <Hero />
 <Skills />
@@ -16,6 +13,5 @@ return(
 </div>
 
 )
-}
 
 export default Home

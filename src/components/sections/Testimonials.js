@@ -15,9 +15,9 @@ return(
 <div id="bar" style={bar}>
   <Square brT={100} brL={100} num={10+'+'} text={'Happy Clients'}
   dir={'right'} />
-  <Square num={13} text={'Projects Done'} dir={'left'} />
-  <Square num={37} text={'Github Repos'} dir={'right'} />
-  <Square brB={100} brR={100} num={1} text={'Years Experince'}
+  <Square num={14+'+'} text={'Projects Done'} dir={'left'} />
+  <Square num={45+'+'} text={'Github Repos'} dir={'right'} />
+  <Square brB={100} brR={100} num={1+'+'} text={'Years Experince'}
   dir={'left'} />
 </div>
 

@@ -1,10 +1,9 @@
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
+import {useEffect} from 'react'
 import Navbar from './components/common/Navbar'
 import Footer from './components/common/Footer'
 import Home from "./components/pages/Home";
 import AllProjects from './components/pages/AllProjects'
-
-
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import './App.css';
@@ -17,7 +16,6 @@ function App() {
     <Router>
 <header>
 <Route exact path="" component={Navbar} />
-
 </header>
 
 <main>

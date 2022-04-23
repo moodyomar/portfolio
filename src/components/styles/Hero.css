@@ -3,6 +3,7 @@
   width: 100vw;
   background-color: var(--color-tiles-bg);
   height: calc(100vh - 100px);
+  padding: 0px 30px;
 }
 .right-col{
 flex:2;
@@ -203,6 +204,9 @@ display: block;
 .Hero .left-col{
 display: grid;
 place-items: center;
+}
+.Hero .left-col .btn{
+margin-bottom: 50px;
 }
 .Hero .right-col{
 height: 50vh;
