@@ -1,15 +1,42 @@
 [
 {
-    "intro":"Project 15",
+    "intro":"Project 17",
+    "title":"Shortly - More than just shorter links",
+    "tools":["html","css","js","react"],
+    "content":"Simple frontend website with REST API functionality, it was made through a webmentor challenge and got improved to solve my personal needs for a quick whatsapp link generator.",
+    "btnclass":"readMore",
+    "btn":"Read More",
+    "icon":true,
+    "pId":"p17",
+    "link":"https://mashortly.netlify.app",
+    "more":"https://mashortly.netlify.app",
+    "cat":"Front End"
+  },
+{
+    "intro":"Project 16",
     "title":"Qusetna - CustomMade Jewelry Store",
     "tools":["wp","el","js","css"],
     "content":"Qusetna, which means 'our story in arabic' is an Online store for distinguished accessories and gifts in silver or plated with gold in the art of Arabic calligraphy (engraving).",
     "btnclass":"readMore",
     "btn":"Read More",
     "icon":true,
-    "pId":"p15",
+    "flip":true,
+    "pId":"p16",
     "link":"https://qusetna.com",
     "more":"https://qusetna.com",
+    "cat":"Wordpress"
+  },
+{
+    "intro":"Project 15",
+    "title":"Kfar Nursery - Plants Nursery Store",
+    "tools":["wp","el","js","css"],
+    "content":"Online store for quality seedlings for your home and garden with plenty more special stuff to offer, Pots, Flowers, Plants, Flower pots, Synthetic grass, Ornamental and fruit trees and much more.",
+    "btnclass":"readMore",
+    "btn":"Read More",
+    "icon":true,
+    "pId":"p15",
+    "link":"https://kfar-nursery.com",
+    "more":"https://kfar-nursery.com",
     "cat":"Wordpress"
   },
 {
