@@ -2,7 +2,7 @@
 {
     "intro":"Project 17",
     "title":"Shortly - More than just shorter links",
-    "tools":["html","css","js","react"],
+    "tools":["html","css","js","api","react"],
     "content":"Simple frontend website with REST API functionality, it was made through a webmentor challenge and got improved to solve my personal needs for a quick whatsapp link generator.",
     "btnclass":"readMore",
     "btn":"Read More",
@@ -69,7 +69,7 @@
 {
     "intro":"Project 11",
     "title":"DevMeet - Social Network For Developers",
-    "tools":["html","css","js","react","mdb","njs"],
+    "tools":["html","css","js","api","react","mdb","njs"],
     "content":"In this project I got inspired from a tutorial and the Twitter platform which is what I was aiming for at the beginning, I'v learned and solved many problems during this project and committed every single step in Github, yet I don't consider it as a finished project although everything works great, But simply I always like to check on my projects once in a while and add new features.",
     "btnclass":"readMore",
     "btn":"Read More",
@@ -82,7 +82,7 @@
 {
     "intro":"Project 10",
     "title":"PetMe - Dog Adoption Association",
-    "tools":["html","css","bs","js","ang","mdb","njs"],
+    "tools":["html","css","bs","js","api","ang","mdb","njs"],
     "content":"In this project I got inspired from Klavlav website, The project is not related to my studying at HackerU neither a tutorial, I'v built everything on my own, Front to back and along the process I had many challenging problems , learned new strategies and libraries, worked with Git & GitHub ( issues , commits , Pull requests etc).",
     "btnclass":"readMore",
     "btn":"Read More",
@@ -96,7 +96,7 @@
 {
     "intro":"Project 9",
     "title":"BizUp - Business Meetups",
-    "tools":["html","css","bs","js","react","mdb","njs"],
+    "tools":["html","css","bs","js","api","react","mdb","njs"],
     "content":"This project was the first MERN project I did during my studing at HackerU college. I'v took me time to do this project as it was also out final assignment from the college , I'v learned a lot and got inspired to do my own college free MERN project.",
     "btnclass":"readMore",
     "btn":"Read More",

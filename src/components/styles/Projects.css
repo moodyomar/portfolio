@@ -31,6 +31,10 @@ max-height: 600px;
   margin-left: 5px;
   font-size: 1.5rem;
 }
+.apicon{
+  fill:var(--color-text-primary);
+  width: 30px;
+}
   @media screen and (max-width: 820px) {
     .Project{
       display: grid;
