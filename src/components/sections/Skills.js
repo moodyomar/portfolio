@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import SkillCard from '../cards/SkillCard';
+import SkillCard from '../common/SkillCard';
 import skills from '../../data/skills.json';
 import Para from '../common/Para';
 

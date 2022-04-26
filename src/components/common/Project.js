@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProjectCard from '../cards/ProjectCard';
+import ProjectCard from '../common/ProjectCard';
 import Para from './Para';
 
 

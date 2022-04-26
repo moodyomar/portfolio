@@ -2,7 +2,7 @@
   {
     "icon":"FaCode",
     "title":"Main Languages",
-    "desc":"HTML CSS and Javascript Front to back including ES6 syntax & REST api, npm, Typescript, with basic familiarity in jQuery, SASS and PHP.",
+    "desc":"HTML CSS and Javascript Front to back including ES6 syntax & REST api, npm, Typescript and the fundamentals in C.",
     "animation":"left"
   },
   {
@@ -14,7 +14,7 @@
   {
     "icon":"MdDevicesOther",
     "title":"Responsive Design",
-    "desc":"For me website that is !responisve is !professional, Therefor I use native CSS or bootstrap to make my websites fully responsive for all devices.",
+    "desc":"For me website !responisve is !professional, Therefor I use native CSS or bootstrap to make my websites fully responsive for all devices.",
     "animation":"left"
   },
   {
