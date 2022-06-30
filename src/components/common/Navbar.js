@@ -37,7 +37,7 @@ const Navbar = ({ location }) => {
     <div style={nav} className='Navbar'>
       <div className="scrollUp" style={nav.scrollUp}
       onClick={() => window.scrollTo(0,0)}><AiOutlineArrowUp size={25} /></div>
-      <div className="logo" id="logo" data-aos="fade-right" data-aos-duration="600">
+      <div className="logo" id="logo" data-aos="fade-right" data-aos-duration="1000">
         <NavLink to="/"><h2><img alt="Logo" /></h2></NavLink>
       </div>
       <nav>

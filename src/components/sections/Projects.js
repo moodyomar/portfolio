@@ -13,7 +13,7 @@ const Projects = () => {
 
     <div className='Projects'>
 
-      {projects.slice(4,7).filter(project => project.cat !== 'Wordpress').map(project => {
+      {projects.slice(4,8).filter(project => project.cat !== 'Wordpress').map(project => {
   let {intro,title,tools,content,btnclass,btn,icon,flip,pId,link,more} = project
         return(
           <div key={pId}>
