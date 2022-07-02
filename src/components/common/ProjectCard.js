@@ -10,7 +10,7 @@ const ProjectCard = ({id}) => {
 },[id])
   
 return(
-  <div data-aos="zoom-in" data-aos-duration="1000">
+  <div >
 <div className="ProjectCard" ></div>
 <div className="ProjectCardInner" id={id}></div>
 </div>
