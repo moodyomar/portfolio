@@ -12,7 +12,7 @@ return(
 
 <div className="Footer" style={footer}>
 <div className="logo">
-  <h2><img alt="Logo" /></h2>
+ <img alt="Logo" />
 </div>
 <p style={footer.paraFooter}>Please feel free to reach me out on my other social media platforms for any question or request needed.</p>
 <div style={footer.socialFooter}>

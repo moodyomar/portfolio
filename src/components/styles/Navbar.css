@@ -9,7 +9,7 @@ flex:1;
 }
 .logo img{
   content: var(--logo);
-  width: 150px;
+  width: 150px !important;
 }
 nav {
   margin-left: 50px;
