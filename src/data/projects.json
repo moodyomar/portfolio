@@ -1,7 +1,7 @@
 [
 {
     "intro":"Project 18",
-    "title":"QNWmedia - Digital Branding Agency",
+    "title":"QB Media - Digital Branding Agency",
     "tools":["html","css","js","react"],
     "content":"A clone of my existing Digital Branding Agency that was made by wordpress at a time, remade all over again using react.js and native CSS (still a work in progress)",
     "btnclass":"readMore",
@@ -9,8 +9,8 @@
     "icon":true,
     "flip":true,
     "pId":"p18",
-    "link":"https://maqnw.netlify.app",
-    "more":"https://maqnw.netlify.app",
+    "link":"https://qbmedia.co.il",
+    "more":"https://qbmedia.co.il",
     "cat":"Front End"
   },
 {
