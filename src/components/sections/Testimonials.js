@@ -13,11 +13,11 @@ return(
 <div className='Testimonials'>
 
 <div id="bar" style={bar}>
-  <Square brT={100} brL={100} num={10+'+'} text={'Happy Clients'}
+  <Square brT={100} brL={100} num={15+'+'} text={'Happy Clients'}
   dir={'right'} />
-  <Square num={15+'+'} text={'Projects Done'} dir={'left'} />
-  <Square num={45+'+'} text={'Github Repos'} dir={'right'} />
-  <Square brB={100} brR={100} num={1+'+'} text={'Years Experince'}
+  <Square num={17+'+'} text={'Projects Done'} dir={'left'} />
+  <Square num={50+'+'} text={'Github Repos'} dir={'right'} />
+  <Square brB={100} brR={100} num={2+'+'} text={'Years Experince'}
   dir={'left'} />
 </div>
 
