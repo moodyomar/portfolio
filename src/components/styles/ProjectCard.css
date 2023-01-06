@@ -66,7 +66,13 @@ box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.50);
   background-position: 20%;
 }
 #p18{
-  background-image: url('../../assets/qnw.jpg');
+  background-image: url('../../assets/qbmedia.webp');
+}
+#p19{
+  background-image: url('https://imageio.forbes.com/specials-images/imageserve/60f1e792c7e89f933811814c/DevOps-concept/960x0.jpg?format=jpg&width=960');
+}
+#p20{
+  background-image: url('https://imageio.forbes.com/specials-images/imageserve/60f1e792c7e89f933811814c/DevOps-concept/960x0.jpg?format=jpg&width=960');
 }
 #bernard{
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a6/George_Bernard_Shaw.jpg');
