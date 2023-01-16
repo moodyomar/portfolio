@@ -20,7 +20,7 @@
   {
     "icon":"FaTools",
     "title":"Tools & Apps",
-    "desc":"Git & Github, Bash, Linux, Docker, MongoDB & Wordpress, Adobe Photoshop, XD, Figma + hands on web builders like Elementor.",
+    "desc":"Git & Github, Bash, Linux, Docker, MongoDB, Kubernetes, Ansible, Terraform, Wordpress, Photoshop, Figma and more.",
     "animation":"right"
   }
 ]

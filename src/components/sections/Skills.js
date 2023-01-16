@@ -18,7 +18,7 @@ const Skills = () => {
         <Para
           intro={'My Skills'}
           title={'Why Hire Me For Next Project?'}
-          para={"Lots of motivation, Consistency, Positive energy and responsibility with great passion. I'm definitely a team player, Very eager to learn new technologies and always strives beyond the sky. Experience working with Wordpress, owner of an active e-commerce store and a small Branding Agency offering business promotions as a side hustle."}
+          para={"Lots of motivation, Consistency, Positive energy and responsibility. Able to efficiently self-manage during independent projects, as well as collaborate,  Experience in building basic infra and CI/CD processes from scratch, Building Full stack web applications with branching strategies and more than 40 repositories/projects on Github."}
           btn={'Download CV'}
           more={cv} />
 

@@ -26,7 +26,7 @@ const Hero = () => {
         <Para
           intro={'Introduction'}
           h1={heading}
-          para={"I’m a creative Web Developer with a great experience in design and some experience in the e-commerce world with a deep passion for ‏everything related to computers and tech since forever."}
+          para={"I’m a creative and highly motivated Web Developer & DevOps engineer with a great experience in design and the e-commerce world that is deeply passionate about ‏everything related to computers and tech since forever."}
           btnClass={'btn'}
           btn={'Contact Me'} 
           more={'mailto:contact@devmoody.com'}/>
