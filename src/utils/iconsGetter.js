@@ -1,6 +1,6 @@
 import {FaWordpress,FaElementor,FaReact,FaCss3Alt,FaNodeJs} from "react-icons/fa"
 import {SiJavascript,SiMongodb,SiAngular,SiFirebase,SiDocker,
-  SiPython,SiJenkins, SiKubernetes,SiTerraform, SiMicrosoftazure} from "react-icons/si"
+  SiPython,SiJenkins, SiKubernetes,SiTerraform, SiMicrosoftazure, SiMaterialUi} from "react-icons/si"
 import {DiBootstrap} from "react-icons/di"
 import {TiHtml5} from "react-icons/ti"
 import Apicon from "../assets/Apicon"
@@ -60,6 +60,8 @@ export const getIcon = (tool) => {
       return <DiBootstrap/>
     case 'api':
       return <Apicon/>
+    case 'mui':
+      return <SiMaterialUi/>
   
     default:
       break;

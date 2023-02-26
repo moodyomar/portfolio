@@ -1,5 +1,32 @@
 [
 {
+    "intro":"Project 22",
+    "title":"QR Food Menu",
+    "tools":["html","css","js","mui","react"],
+    "content":"QR food menu for cakes store, the idea was to have a digital menu for the business that is easy and can be quickly opened and ussed",
+    "btnclass":"readMore",
+    "btn":"Read More",
+    "icon":true,
+    "flip":true,
+    "pId":"p22",
+    "link":"https://safaasweets.netlify.app",
+    "more":"https://github.com/moodyomar/qr-menu",
+    "cat":"FrontEnd"
+  },
+{
+    "intro":"Project 21",
+    "title":"Simple Blackjack",
+    "tools":["py","js","react","api","docker","k8s"],
+    "content":"Provisioning of a self managed K8S cluster with Terraform and Ansible (Dynamic Inventory) for configuration management on Azure.",
+    "btnclass":"readMore",
+    "btn":"Read More",
+    "icon":true,
+    "pId":"p21",
+    "link":"https://github.com/moodyomar/python-weatherapp",
+    "more":"https://github.com/moodyomar/python-weatherapp",
+    "cat":"DevOps"
+  },
+{
     "intro":"Project 20",
     "title":"K8S Cluster on Azure with TF and Ansible",
     "tools":["tf","azure","ansible","k8s"],
