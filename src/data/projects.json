@@ -9,7 +9,7 @@
     "icon":true,
     "flip":true,
     "pId":"p22",
-    "link":"https://safaasweets.netlify.app",
+    "link":"https://menu-safaa.qbmedia.co.il",
     "more":"https://github.com/moodyomar/qr-menu",
     "cat":"FrontEnd"
   },
@@ -56,8 +56,8 @@
 {
     "intro":"Project 18",
     "title":"QB Media - Digital Branding Agency",
-    "tools":["html","css","js","react"],
-    "content":"A clone of my existing Digital Branding Agency that was made by wordpress at a time, remade all over again using react.js and native CSS (still a work in progress)",
+    "tools":["html","css","js","react","api"],
+    "content":"My own Digital Branding Agency that was made by wordpress at a time, remade all over again using react.js and native CSS, This is my main website that I represent infront of my potential clients that also includes my work, pricing and plans and more",
     "btnclass":"readMore",
     "btn":"Read More",
     "icon":true,
